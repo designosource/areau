@@ -110,11 +110,20 @@ body {
 .contact a {
   color: #999;
   display: block;
-  margin: 0.8em;
+  padding: 0.5em;
   text-decoration: none;
+}
+
+.contact a:hover {
+  color: #666;
 }
 
 .social {
   margin-top: 1em;
   font-size: 2em;
+}
+
+.social a {
+  color: #999;
+  text-decoration: none;
 }
