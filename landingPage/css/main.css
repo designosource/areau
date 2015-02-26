@@ -14,6 +14,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background-color: #ebebeb;
+}
+
 /* INTRO */
 .intro {
   height: 100%;
@@ -41,4 +45,36 @@ html {
 
 .intro .subtitle .fa {
   font-size: 3em;
+}
+
+/* CONTENT */
+.content {}
+
+.content .logo {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.content form {
+  margin: 50px auto 0;
+  max-width: 500px;
+  text-align: center;
+}
+
+.content form input,
+.content form button {
+  border: none;
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.content form input {
+  background-color: #fff;
+}
+
+.content form button {
+  background-color: #999;
 }
