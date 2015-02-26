@@ -1,0 +1,44 @@
+/* GENERAL */
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+
+html, 
+body {
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+/* INTRO */
+.intro {
+  height: 100%;
+  position: relative;
+}
+
+.intro video {
+  bottom: 0;
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  right: 0;
+  width: auto;
+  z-index: -999;
+}
+
+.intro .subtitle {
+  bottom: 5%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.intro .subtitle .fa {
+  font-size: 3em;
+}
