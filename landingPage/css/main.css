@@ -78,3 +78,21 @@ body {
 .content form button {
   background-color: #999;
 }
+
+/* FOOTER */
+.footer {
+  padding: 2em 0;
+  text-align: center;
+}
+
+.contact a {
+  color: #999;
+  display: block;
+  margin: 0.8em;
+  text-decoration: none;
+}
+
+.social {
+  margin-top: 1em;
+  font-size: 2em;
+}
