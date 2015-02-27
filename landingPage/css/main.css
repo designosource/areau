@@ -29,6 +29,7 @@ html {
 
 body {
   background-color: #ebebeb;
+  color: #333;
   font-family: 'dinregular';
 }
 
@@ -62,8 +63,14 @@ body {
   font-style: italic;
 }
 
-.intro .subtitle .fa {
+.intro .subtitle a {
+  color: #444;
   font-size: 3em;
+  text-decoration: none;
+}
+
+.intro .subtitle a:hover {
+  color: #333;
 }
 
 /* CONTENT */
@@ -110,13 +117,13 @@ body {
 }
 
 .content form button {
-  color: #eee;
-  background-color: #999;
+  color: #fff;
+  background-color: #444;
 }
 
 .content form button:hover {
-  color: #ccc;
-  background-color: #888;
+  color: #fff;
+  background-color: #333;
 }
 
 /* FOOTER */
@@ -129,14 +136,14 @@ body {
 }
 
 .contact a {
-  color: #999;
+  color: #444;
   display: block;
   padding: 0.2em;
   text-decoration: none;
 }
 
 .contact a:hover {
-  color: #666;
+  color: #333;
 }
 
 .social {
@@ -145,6 +152,10 @@ body {
 }
 
 .social a {
-  color: #999;
+  color: #444;
   text-decoration: none;
+}
+
+.social a:hover {
+  color: #333;
 }
