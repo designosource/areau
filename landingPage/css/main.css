@@ -57,24 +57,42 @@ body {
   text-align: center;
 }
 
+.intro .subtitle p {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+}
+
 .intro .subtitle .fa {
   font-size: 3em;
 }
 
 /* CONTENT */
 .content {
-  padding: 0 1em;
 }
 
 .content .logo {
-  margin-top: 5em;
+  margin-top: 2em;
   text-align: center;
+}
+
+.content .logo img {
+  max-height: 200px;
+}
+
+.content .logo p {
+  margin-top: -2em;
 }
 
 .content form {
   margin: 4em auto 0;
   max-width: 500px;
+  padding: 0 1em;
   text-align: center;
+}
+
+.content form p {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
 }
 
 .content form input,
@@ -82,7 +100,7 @@ body {
   border: none;
   display: block;
   margin: 0.5em auto;
-  padding: 0.8em;
+  padding: 0.5em;
   width: 100%;
   text-align: center;
 }
@@ -103,14 +121,17 @@ body {
 
 /* FOOTER */
 .footer {
-  padding: 2em 0;
   text-align: center;
+}
+
+.contact {
+  margin-top: 6em;
 }
 
 .contact a {
   color: #999;
   display: block;
-  padding: 0.5em;
+  padding: 0.2em;
   text-decoration: none;
 }
 
@@ -119,8 +140,8 @@ body {
 }
 
 .social {
-  margin-top: 1em;
   font-size: 2em;
+  margin: 0.5em auto 1em;
 }
 
 .social a {
