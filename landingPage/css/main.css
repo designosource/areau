@@ -76,6 +76,7 @@ body {
 
 /* CONTENT */
 .content {
+  overflow: hidden;
 }
 
 .content .logo {

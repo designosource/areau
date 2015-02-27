@@ -4,31 +4,27 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Areau</title>
-    <meta name="description" content="">
+    <meta name="description" content="Areau: design, interior, services">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   </head>
   <body>
-    <!--[if lt IE 8]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
       
     <div class="intro">
-      <video autoplay loop poster="assets/images/placeholder.jpg">
+      <video autoplay loop>
         <source src="assets/videos/placeholder.mp4" type="video/mp4">
         <source src="assets/videos/placeholder.ogv" type="video/ogg">
         <source src="assets/videos/placeholder.webm" type="video/webm">
       </video>
       <div class="subtitle">
         <p>Something inspiring is coming soon</p>
-        <a href="#more" class="fa fa-chevron-circle-down"></a>
+        <a href="#scrollTarget" class="fa fa-chevron-circle-down" id="scrollButton"></a>
       </div>
     </div>
 
-    <div class="content" id="more">
+    <div class="content" id="scrollTarget">
       <div class="logo">
         <img src="assets/images/logo.svg" alt="logo Areau">
         <p>DESIGN - INTERIOR - SERVICES</p>
@@ -59,6 +55,29 @@
         <a href="#" class="fa fa-vimeo-square"></a>
       </div>
     </div>
+    
+    <!-- Scripts -->
+    <script>
+      var scrollTarget = document.querySelector("#scrollTarget");
+      var scrollButton = document.querySelector("#scrollButton");
+
+      scrollButton.addEventListener("click", function runScroll() {
+        event.preventDefault();
+        scrollTo(document.body, scrollTarget.offsetTop, 600);
+      }, false);
+
+      function scrollTo(element, to, duration) {
+        if (duration < 0) return;
+        var difference = to - element.scrollTop;
+        var perTick = difference / duration * 10;
+
+        setTimeout(function() {
+          element.scrollTop = element.scrollTop + perTick;
+          if (element.scrollTop == to) return;
+          scrollTo(element, to, duration - 10);
+        }, 10);
+      }
+    </script>
     
     <!-- Google Analytics 
     <script>
