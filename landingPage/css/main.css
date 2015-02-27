@@ -98,13 +98,15 @@ body {
   text-align: center;
 }
 
-.content form p {
+.content form label {
+  display: block;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-style: italic;
+  margin: 1em;
 }
 
 .content form input,
-.content form button {
+.content form .button {
   border: none;
   display: block;
   margin: 0.5em auto;
@@ -117,12 +119,12 @@ body {
   background-color: #fff;
 }
 
-.content form button {
+.content form .button {
   color: #fff;
   background-color: #444;
 }
 
-.content form button:hover {
+.content form .button:hover {
   color: #fff;
   background-color: #333;
 }
