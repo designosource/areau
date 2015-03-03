@@ -66,10 +66,11 @@
     <!-- Scripts -->
     <script>
       // Smooth scrolling
+      // [TODO] SCROLL-FIX: scrollTo() op 'body' EN 'html' toepassen
       var scrollTarget = document.querySelector("#scrollTarget");
       var scrollButton = document.querySelector("#scrollButton");
 
-      scrollButton.addEventListener("click", function runScroll() {
+      scrollButton.addEventListener("click", function runScroll(event) {
         event.preventDefault();
         scrollTo(document.body, scrollTarget.offsetTop, 600);
       }, false);
@@ -91,7 +92,7 @@
       var email = document.querySelector("#mce-EMAIL");
       var error = document.querySelector("#error");
 
-      submitButton.addEventListener("click", function() {
+      submitButton.addEventListener("click", function(event) {
         event.preventDefault();
         if( validateEmail(email.value) ) {
           email.className = "email";
