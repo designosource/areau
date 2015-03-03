@@ -109,9 +109,9 @@ body {
 
 .content form input,
 .content form .button {
-  border: none;
   display: block;
   margin: 0.5em auto;
+  outline: none;
   padding: 0.5em;
   width: 100%;
   text-align: center;
@@ -124,11 +124,26 @@ body {
 .content form .button {
   color: #fff;
   background-color: #444;
+  border: 2px solid #444;
 }
 
 .content form .button:hover {
   color: #fff;
   background-color: #333;
+}
+
+.content form #error {
+  color: #f44;
+  padding: 0.5em;
+}
+
+.email {
+  border: 2px solid #fff;
+}
+
+.email.hasError {
+  background-color: #fdd;
+  border: 2px solid #f66;
 }
 
 /* FOOTER */
