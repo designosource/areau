@@ -86,7 +86,8 @@ body {
 }
 
 .content .logo img {
-  max-height: 200px;
+  height: auto;
+  width: 200px;
 }
 
 .content .logo p {
