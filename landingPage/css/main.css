@@ -60,7 +60,7 @@ body {
 }
 
 .intro .subtitle p {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-size: 1.6em;
   font-style: italic;
 }
@@ -103,7 +103,7 @@ body {
 
 .content form label {
   display: block;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-style: italic;
   margin: 1em;
 }
