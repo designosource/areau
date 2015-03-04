@@ -96,6 +96,7 @@ body {
   font-size: 1.6em;
   font-style: italic;
   letter-spacing: 0.1em;
+  color: #68645C;    
 }
 
 .icon.arrow-down {
@@ -135,6 +136,7 @@ body {
   font-style: italic;
   letter-spacing: 0.1em;
   margin: 1em;
+  color: #68645C;    
 }
 
 .content form input,
@@ -196,6 +198,13 @@ body {
 
 .contact a:hover {
   color: #333;
+}
+
+#at_areau
+{
+    height: auto;
+    width: 15px;
+    margin: 3px 2px 0px 2px;
 }
 
 .social {
