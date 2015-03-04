@@ -63,6 +63,10 @@ body {
 
 .intro .videoWrapper {
   background-color: #ccc;
+  background-image: url("../assets/images/lightbackground.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100%;
   min-width: 100%;
 }
