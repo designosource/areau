@@ -119,8 +119,13 @@ body {
 }
 
 /* CONTENT */
+#content_wrapper
+{
+    height: 100vh; 
+}
+
 .content {
-  overflow: hidden;
+  overflow: hidden;   
 }
 
 .content .logo {
