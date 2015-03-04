@@ -34,6 +34,14 @@ body {
 }
 
 /* GENERAL CLASSES */
+.browserupgrade {
+  background-color: #f11;
+  color: #fff;
+  margin: 0;
+  padding: 0.8em;
+  text-align: center;
+}
+
 .icon {
   background-repeat: no-repeat;
   background-size: 100%;
