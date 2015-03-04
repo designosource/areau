@@ -33,6 +33,20 @@ body {
   font-family: 'dinregular';
 }
 
+/* GENERAL CLASSES */
+.icon {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  height: 50px;
+  opacity: 0.8;
+  width: 50px;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
 /* INTRO */
 .intro {
   height: 100%;
@@ -66,14 +80,9 @@ body {
   letter-spacing: 0.1em;
 }
 
-.intro .subtitle a {
-  color: #444;
-  font-size: 3em;
-  text-decoration: none;
-}
-
-.intro .subtitle a:hover {
-  color: #333;
+.icon.arrow-down {
+  background-image: url("../assets/images/icon-arrow-down.png");
+  margin: 0 auto;
 }
 
 /* CONTENT */
@@ -88,7 +97,7 @@ body {
 
 .content .logo img {
   height: auto;
-  width: 200px;
+  width: 150px;
 }
 
 .content .logo p {
@@ -119,6 +128,7 @@ body {
   padding: 0.5em;
   width: 100%;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .content form input {
@@ -127,13 +137,13 @@ body {
 
 .content form .button {
   color: #fff;
-  background-color: #444;
-  border: 2px solid #444;
+  background-color: #68645C;
+  border: 2px solid #68645C;
+  opacity: 0.5;
 }
 
 .content form .button:hover {
-  color: #fff;
-  background-color: #333;
+  opacity: 0.55;
 }
 
 .content form #error {
@@ -157,6 +167,7 @@ body {
 
 .contact {
   margin-top: 6em;
+  text-transform: uppercase;
 }
 
 .contact a {
