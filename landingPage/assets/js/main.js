@@ -4,15 +4,11 @@ $(document).ready(function() {
   var $window = $(window);
   var $logo = $('.intro_logo');
   $('#logo_large').css('opacity', 1);  
-     
-  
-   
-
-  window.setTimeout("fadeLogo();", 3000);     
-    
+         
   function checkWidth() {
         var windowsize = $window.width();
         if (windowsize > 768) {
+            window.setTimeout("fadeLogo();", 3000); 
             //if the window is greater than 440px wide then turn on jScrollPane..
             $logo.hover(  
                function(){  

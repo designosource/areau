@@ -121,12 +121,17 @@ body {
 /* CONTENT */
 #content_wrapper
 {
-    padding-bottom: 5%; 
+    padding: 5% 0px; 
     height: 100vh;
 }
 
+#wrapper
+{  
+  height: inherit; 
+}
+
 .content {
-  overflow: hidden;   
+  overflow: hidden;    
 }
 
 .content .logo {
