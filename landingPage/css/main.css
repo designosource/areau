@@ -204,7 +204,9 @@ body {
 {
     height: auto;
     width: 15px;
-    margin: 3px 2px 0px 2px;
+    margin: 0px 2px;
+    position: relative;
+    top: 1px;
 }
 
 .social {
