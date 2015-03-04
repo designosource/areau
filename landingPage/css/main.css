@@ -91,17 +91,16 @@ body {
 }
 
 .content .logo {
-  margin-top: 2em;
+  margin-top: 6em;
   text-align: center;
 }
 
 .content .logo img {
   height: auto;
-  width: 150px;
+  width: 120px;
 }
 
 .content .logo p {
-  margin-top: -2em;
 }
 
 .content form {
