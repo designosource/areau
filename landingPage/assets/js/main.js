@@ -1,5 +1,33 @@
 $(document).ready(function() {
 
+  //LOGO FADING
+  var $window = $(window);
+  var $logo = $('.intro_logo');
+  $('#logo_large').css('opacity', 1);  
+     
+  
+   
+
+  window.setTimeout("fadeLogo();", 3000);     
+    
+  function checkWidth() {
+        var windowsize = $window.width();
+        if (windowsize > 768) {
+            //if the window is greater than 440px wide then turn on jScrollPane..
+            $logo.hover(  
+               function(){  
+                  $(this).find('#logo_large').stop().fadeTo(2000, 1);  
+               },  
+               function(){  
+                  $(this).find('#logo_large').stop().fadeTo(2000, 0);  
+               });
+        }
+    }
+    // Execute on load
+    checkWidth();
+    // Bind event listener
+    $(window).resize(checkWidth);    
+    
   // SMOOTH SCROLLING
   $('#scrollButton').click(function() {
     $('html, body').stop().animate({
@@ -31,3 +59,7 @@ $(document).ready(function() {
   };
 
 });
+
+function fadeLogo(){    
+  $('#logo_large').stop().fadeTo(2000, 0);   
+  }

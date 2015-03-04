@@ -83,6 +83,20 @@ body {
   width: auto;
 }
 
+.intro .intro_logo
+{
+  bottom: 45%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+#logo_large
+{
+    width: 250px;
+}
+
 .intro .subtitle {
   bottom: 5%;
   left: 0;
@@ -233,4 +247,10 @@ body {
   .intro video {
     display: block;
   }
+    
+  #logo_large
+  {
+    width: 400px;
+
+  }    
 }
