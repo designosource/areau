@@ -121,7 +121,8 @@ body {
 /* CONTENT */
 #content_wrapper
 {
-    height: 100vh; 
+    padding-bottom: 5%; 
+    height: 100vh;
 }
 
 .content {
@@ -134,7 +135,6 @@ body {
 }
 
 .content .logo img {
-  height: auto;
   width: 120px;
 }
 
@@ -221,7 +221,7 @@ body {
 
 #at_areau
 {
-    height: auto;
+    
     width: 15px;
     margin: 0px 2px;
     position: relative;
@@ -229,7 +229,7 @@ body {
 }
 
 .social {
-  margin: 2em 0 5em 0;
+  margin: 2em 0 0 0;
 }
 
 .social .icon {
