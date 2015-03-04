@@ -13,7 +13,7 @@
     <!--[if lt IE 8]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-      
+
     <div class="intro">
       <video autoplay loop>
         <source src="assets/videos/intro.mp4" type="video/mp4">
@@ -60,58 +60,10 @@
     </div>
     
     <!-- Scripts -->
-    <script>
-      // Smooth scrolling
-
-      /** SCROLL-FIX: 
-          scrollTo() op 'document.body' EN 'document.documentElement' toepassen
-          zie -> scrollTo(document.body, scrollTarget.offsetTop, 600);
-      */
-
-      var scrollTarget = document.querySelector("#scrollTarget");
-      var scrollButton = document.querySelector("#scrollButton");
-
-      scrollButton.addEventListener("click", function runScroll(event) {
-        event.preventDefault();
-        scrollTo(document.body, scrollTarget.offsetTop, 600);
-      }, false);
-
-      function scrollTo(element, to, duration) {
-        if (duration < 0) return;
-        var difference = to - element.scrollTop;
-        var perTick = difference / duration * 10;
-
-        setTimeout(function() {
-          element.scrollTop = element.scrollTop + perTick;
-          if (element.scrollTop == to) return;
-          scrollTo(element, to, duration - 10);
-        }, 10);
-      }
-
-      // Form validation
-      var submitButton = document.querySelector("#mc-embedded-subscribe");
-      var email = document.querySelector("#mce-EMAIL");
-      var error = document.querySelector("#error");
-
-      submitButton.addEventListener("click", function(event) {
-        event.preventDefault();
-        if( validateEmail(email.value) ) {
-          email.className = "email";
-          error.innerHTML = "";
-          document.querySelector("#mc-embedded-subscribe-form").submit();
-        }
-        else {
-          email.className = "email hasError";
-          error.innerHTML = "Gelieve een geldig e-mailadres in te vullen.";
-        }
-      });
-
-      function validateEmail(email) { 
-        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        return re.test(email);
-      } 
-    </script>
-
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+    <!-- Google Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -120,6 +72,5 @@
       ga('create', 'UA-60274479-1', 'auto');
       ga('send', 'pageview');
     </script>
-
   </body>
 </html>
