@@ -23,6 +23,22 @@ $(document).ready(function() {
     checkWidth();
     // Bind event listener
     $(window).resize(checkWidth);    
+  
+  // MUSIC PAUZE AND PLAY
+  //$('#music_play').hide();
+  $('#music_play').click(function(e) {
+      if ($('#music')[0].paused == false) {
+          $('#music')[0].pause();
+          console.log('music paused');
+          $('#handlers').attr('src','assets/images/playbtn.png');
+      } else {
+          $('#music')[0].play();
+          console.log('music playing');
+          $('#handlers').attr('src','assets/images/pauzebtn.png');
+      }
+      e.preventDefault();
+    });
+    
     
   // SMOOTH SCROLLING
   $('#scrollButton').click(function() {

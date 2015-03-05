@@ -13,6 +13,13 @@
     <!--[if lt IE 8]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+      <!--[if IE 8]>
+    <style>
+        #music_play {
+            display:none;
+        }
+    </style>
+<![endif]-->
 
     <audio id="music" controls autoplay>
      <source src="assets/muziek/06%20Soul%20And%20Onward.m4a" type="audio/mp4" />
@@ -31,9 +38,9 @@
       </div>    
       <div class="subtitle">
         <p>Something inspiring <br /> is coming soon</p>
-        <a href="#scrollTarget" class="icon arrow-down" id="scrollButton"></a>
-      </div>
-      <a id="music_btn" href=""><img src="" /></a>    
+        <a href="#scrollTarget" class="icon" id="scrollButton"><img id="arrow-down" src="assets/images/icon-arrow-down.png" /></a>
+      </div> 
+      <a id="music_play"><img id="handlers" src="assets/images/pauzebtn.png" /></a>
     </div>
 
 <div id="content_wrapper"> 
@@ -62,12 +69,12 @@
 
     <div class="footer">
       <div class="contact">
-        <a href="mailto:info@areau.be">info<img id="at_areau" src="assets/images/logo-content.svg" alt="at_areau"/>areau.be</a>
+        <a href="mailto:info@areau.be">info<img id="at_areau" src="assets/images/logo-content.png" alt="at_areau"/>areau.be</a>
         <a href="tel:+320475981067">+32 (0)475 98 10 67</a>
       </div>
       <div class="social">
-        <a class="icon facebook" href="https://www.facebook.com/pages/AREAU/793781097311302?fref=ts" target="_blank"></a>
-        <a class="icon vimeo" href="https://vimeo.com/user37928837" target="_blank"></a>
+        <a class="icon facebook" href="https://www.facebook.com/pages/AREAU/793781097311302?fref=ts" target="_blank"><img id="facebook" src="assets/images/icon-facebook.png" /></a>
+        <a class="icon vimeo" href="https://vimeo.com/user37928837" target="_blank"><img id="vimeo" src="assets/images/icon-vimeo.png" /></a>
       </div>
     </div>
   </div>      

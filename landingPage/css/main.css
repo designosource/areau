@@ -43,12 +43,12 @@ body {
 }
 
 .icon {
-  background-repeat: no-repeat;
-  background-size: 100%;
   display: block;
   height: 40px;
   opacity: 0.8;
   width: 40px;
+  margin: 0 auto;
+  text-align: center;    
 }
 
 .icon:hover {
@@ -113,9 +113,8 @@ body {
   color: #68645C;    
 }
 
-.icon.arrow-down {
-  background-image: url("../assets/images/icon-arrow-down.png");
-  margin: 0 auto;
+.icon #arrow-down {
+  width: 40px;
 }
 
 /* CONTENT */
@@ -240,15 +239,17 @@ body {
 .social .icon {
   display: inline-block;
   margin: 0 0.5em;
+
+
 }
 
-.social .icon.facebook {
-  background-image: url("../assets/images/icon-facebook.png");
+.social .icon #facebook {
+  width: 40px;
   margin: inherit auto;
 }
 
-.social .icon.vimeo {
-  background-image: url("../assets/images/icon-vimeo.png");
+.social .icon #vimeo {
+  width: 40px;
   margin: inherit auto;
 }
 
@@ -257,6 +258,20 @@ body {
 #music
 {
     
+}
+
+#music_pauze,
+#music_play
+{
+  bottom: 5%;
+  position: absolute;
+  right: 2%;
+}
+
+#music_pauze > img,
+#music_play > img
+{
+    width: 25px;
 }
 
 /* MEDIA QUERIES */
