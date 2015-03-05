@@ -85,7 +85,7 @@ body {
 
 .intro .intro_logo
 {
-  bottom: 45%;
+  bottom: 50%;
   left: 0;
   position: absolute;
   right: 0;
@@ -98,7 +98,7 @@ body {
 }
 
 .intro .subtitle {
-  bottom: 5%;
+  bottom: 15%;
   left: 0;
   position: absolute;
   right: 0;
@@ -250,6 +250,13 @@ body {
 .social .icon.vimeo {
   background-image: url("../assets/images/icon-vimeo.png");
   margin: inherit auto;
+}
+
+/************** MUSIC ****************/
+
+#music
+{
+    
 }
 
 /* MEDIA QUERIES */
