@@ -8,6 +8,7 @@ $(document).ready(function() {
   function checkWidth() {
         var windowsize = $window.width();
         if (windowsize > 768) {
+            
             window.setTimeout("fadeLogo();", 3000); 
             //if the window is greater than 440px wide then turn on jScrollPane..
             $logo.hover(  
@@ -17,6 +18,11 @@ $(document).ready(function() {
                function(){  
                   $(this).find('#logo_large').stop().fadeTo(2000, 0);  
                });
+        }
+        if(windowsize < 768)
+        {
+            $('audio').css('display','none');
+            $('#music_play').css('display','none');
         }
     }
     // Execute on load
