@@ -2,23 +2,46 @@ $(document).ready(function() {
 
   //LOGO FADING
   var $window = $(window);
-  var $logo = $('.intro_logo');
-  $('#logo_large').css('opacity', 1);  
+  var $logo_div = $('.intro_logo');
+  var $logo = $('#logo_large'); 
+  $logo.css('opacity', 0);  
+    
+   /* $(function () {
+    
+    setInterval(function () {
+        $logo.fadeIn(3000, function () {
+            $logo.fadeOut(3000);
+        }).delay(2000);
+    }, 25000);
+});*/
+    
+   
          
   function checkWidth() {
         var windowsize = $window.width();
         if (windowsize > 768) {
             $('audio').css('display','block');
             $('#music_play').css('display','block');
-            window.setTimeout("fadeLogo();", 3000); 
+            
+            
+            function fadeLogo(){   
+    
+                $logo.delay(2000).fadeTo(2800, 1, function(){
+                $logo.delay(400).fadeTo(2800, 0);
+                });
+            }  
+            fadeLogo();
+            setInterval(fadeLogo, 65000);
+            
+            //window.setTimeout(fadeLogo, 2000); 
             //if the window is greater than 440px wide then turn on jScrollPane..
-            $logo.hover(  
+            /*$logo.hover(  
                function(){  
                   $(this).find('#logo_large').stop().fadeTo(2000, 1);  
                },  
                function(){  
                   $(this).find('#logo_large').stop().fadeTo(2000, 0);  
-               });
+               });*/
         }
         if(windowsize < 768)
         {
@@ -79,6 +102,5 @@ $(document).ready(function() {
 
 });
 
-function fadeLogo(){    
-  $('#logo_large').stop().fadeTo(2000, 0);   
-  }
+var logo = document.getElementById('logo_large');
+
