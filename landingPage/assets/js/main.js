@@ -4,23 +4,67 @@ $(document).ready(function() {
   var $window = $(window);
   var $logo_div = $('.intro_logo');
   var $logo = $('#logo_large'); 
-  $logo.css('opacity', 0);  
-    
-   /* $(function () {
-    
-    setInterval(function () {
-        $logo.fadeIn(3000, function () {
-            $logo.fadeOut(3000);
-        }).delay(2000);
-    }, 25000);
-});*/
-    
-   
-         
+  $logo.css('opacity', 0); 
+  // tablet //
+  var isiPad = /ipad/i.test(navigator.userAgent.toLowerCase());      
+           
   function checkWidth() {
         var windowsize = $window.width();
         if (windowsize > 768) {
-            $('audio').css('display','block');
+            
+            
+            if(isiPad)
+            {
+               $('audio').css('display','none');
+               $('#music_play').css('display','none');
+               $logo.css('opacity', 1); 
+               $('video').css('display','none');
+            }
+            else
+            {
+                $('audio').css('display','block');
+                $('#music_play').css('display','block');
+
+
+                function fadeLogo(){   
+
+                    $logo.delay(2000).fadeTo(2800, 1, function(){
+                    $logo.delay(400).fadeTo(2800, 0);
+                    });
+                }  
+                fadeLogo();
+                setInterval(fadeLogo, 65000);
+            }
+            
+            
+        }
+        if(windowsize < 768)
+        {
+            $('audio').css('display','none');
+            $('#music_play').css('display','none');
+            $logo.css('opacity', 1);
+        }
+    }
+    // Execute on load
+    checkWidth();
+    // Bind event listener
+    $(window).resize(checkWidth);    
+   
+// tablet //
+var isiPad = /ipad/i.test(navigator.userAgent.toLowerCase());  
+  
+if(jQuery.browser.mobile)
+{
+   console.log('You are using a mobile device!');
+   $('audio').css('display','none');
+   $('#music_play').css('display','none');
+   $logo.css('opacity', 1); 
+   $('video').css('display','none');    
+}
+else
+{
+   console.log('You are not using a mobile device!');
+    $('audio').css('display','block');
             $('#music_play').css('display','block');
             
             
@@ -32,28 +76,10 @@ $(document).ready(function() {
             }  
             fadeLogo();
             setInterval(fadeLogo, 65000);
-            
-            //window.setTimeout(fadeLogo, 2000); 
-            //if the window is greater than 440px wide then turn on jScrollPane..
-            /*$logo.hover(  
-               function(){  
-                  $(this).find('#logo_large').stop().fadeTo(2000, 1);  
-               },  
-               function(){  
-                  $(this).find('#logo_large').stop().fadeTo(2000, 0);  
-               });*/
-        }
-        if(windowsize < 768)
-        {
-            $('audio').css('display','none');
-            $('#music_play').css('display','none');
-        }
-    }
-    // Execute on load
-    checkWidth();
-    // Bind event listener
-    $(window).resize(checkWidth);    
-  
+    $('video').css('display','block');
+}    
+ 
+    
   // MUSIC PAUZE AND PLAY
   //$('#music_play').hide();
   $('#music_play').click(function(e) {
