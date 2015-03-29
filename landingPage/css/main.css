@@ -319,4 +319,8 @@ and (orientation : landscape)  {
   #logo_large{
     opacity: 1;
   }
+  .intro .videoWrapper{
+    background-image: url("../assets/images/frame.jpg");
+
+  }
 }
