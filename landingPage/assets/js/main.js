@@ -15,15 +15,17 @@ $(document).ready(function() {
             
             if(isiPad)
             {
-               $('audio').css('display','none');
+               /*$('#audio').css('display','none');
                $('#music_play').css('display','none');
-               $logo.css('opacity', 1); 
+               $logo.css('opacity', 1); */
                $('video').css('display','none');
+               console.log("ipad here");
             }
             else
             {
-                $('audio').css('display','block');
-                $('#music_play').css('display','block');
+                /*$('audio').css('display','block');
+                $('#music_play').css('display','block');*/
+               console.log("ipad not here");
 
 
                 function fadeLogo(){   
@@ -52,7 +54,7 @@ $(document).ready(function() {
    
 // tablet //
 var isiPad = /ipad/i.test(navigator.userAgent.toLowerCase());  
-  
+/*  
 if(jQuery.browser.mobile)
 {
    console.log('You are using a mobile device!');
@@ -64,9 +66,9 @@ if(jQuery.browser.mobile)
 else
 {
    console.log('You are not using a mobile device!');
-    $('audio').css('display','block');
-            $('#music_play').css('display','block');
-            
+    /*$('audio').css('display','block');
+            $('#music_play').css('display','block');*/
+            /*
             
             function fadeLogo(){   
     
@@ -78,7 +80,29 @@ else
             setInterval(fadeLogo, 65000);
     $('video').css('display','block');
 }    
- 
+ */
+
+if (Modernizr.mq('only all and (max-width: 768px)')) { 
+  $logo.css('opacity', 1); 
+   $('video').css('display','none');  
+
+}else{
+  console.log('You are not using a mobile device!');
+    /*$('audio').css('display','block');
+            $('#music_play').css('display','block');*/
+            
+            
+            function fadeLogo(){   
+    
+                $logo.delay(2000).fadeTo(2800, 1, function(){
+                $logo.delay(400).fadeTo(2800, 0);
+                });
+            }  
+            fadeLogo();
+            setInterval(fadeLogo, 65000);
+    $('video').css('display','block');
+}
+
     
   // MUSIC PAUZE AND PLAY
   //$('#music_play').hide();

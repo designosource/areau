@@ -306,3 +306,17 @@ and (orientation : landscape)  {
 
   }    
 }
+@media only screen and (max-width: 768px) {
+  audio{
+    display: none;
+  }
+  #audio{
+    display: none;
+  }
+  #music_pauze, #music_play {
+    display: none;
+  }
+  #logo_large{
+    opacity: 1;
+  }
+}
