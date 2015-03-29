@@ -177,6 +177,7 @@ body {
     -moz-appearance: none;
     appearance: none;
   background-color: #fff;
+  border-radius: 0;
 }
 
 .content form .button {
