@@ -306,7 +306,7 @@ and (orientation : landscape)  {
 
   }    
 }
-@media only screen and (min-device-width: 480px) and (max-device-width : 1024px) {
+@media only screen and (min-width: 320px) and (max-width : 1024px) {
   audio{
     display: none;
   }
