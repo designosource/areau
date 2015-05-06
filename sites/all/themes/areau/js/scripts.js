@@ -1,6 +1,6 @@
 (function ($, Drupal) {
 
-  Drupal.behaviors.STARTER = {
+  Drupal.behaviors.areau = {
     attach: function(context, settings) {
       // Get your Yeti started.
     }
