@@ -200,3 +200,17 @@ function THEMENAME_preprocess_views_view_fields(&$variables) {
 //    }
 //  }
 //}
+
+/**  * Implements theme_menu_item_link()  */ 
+function areau_menu_item_link($link) {   
+// Allows for images as menu items. Just supply the path to the image as the title   
+if (strpos($link['title'], '.png') !== false || strpos($link['title'], '.jpg') !== false || strpos($link['title'], '.gif') !== false)
+{     
+
+    $link['title'] = '<img alt="'. $link['description'] .'" title="'. $link['description'] .'" src="'. url($link['title']) .'" />';
+    $link['localized_options']['html'] = TRUE;   
+}   
+return areau_menu_item_link($link); 
+// Let Zen take over from here. 
+} 
+//- See more at: http://chrisshattuck.com/blog/how-use-images-menu-items-drupal-simple-preprocessing-function#sthash.wUppoQBZ.dpuf

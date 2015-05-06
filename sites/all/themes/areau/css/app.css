@@ -78,10 +78,6 @@ html {
 /**
  * Remove default margin.
  */
-/* line 80, ../scss/_normalize.scss */
-body {
-  margin: 0;
-}
 
 /* ==========================================================================
    Links
@@ -458,7 +454,6 @@ body {
   background: #fff;
   color: #222;
   padding: 0;
-  margin: 0;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
