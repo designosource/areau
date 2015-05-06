@@ -7344,8 +7344,3 @@ a.th {
   margin: 0;
   display: inline-block;
 }
-
-/* line 9, ../scss/layout/_aside.scss */
-aside {
-  background-color: red !important;
-}
