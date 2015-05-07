@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33a26570-cda4-4cd2-acc4-041bcefb83f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/areau/scss/layout/_aside.scss" afterPath="$PROJECT_DIR$/sites/all/themes/areau/scss/layout/_aside.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/areau/scss/layout/_footer.scss" afterPath="$PROJECT_DIR$/sites/all/themes/areau/scss/layout/_footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/areau/scss/layout/_header.scss" afterPath="$PROJECT_DIR$/sites/all/themes/areau/scss/layout/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/areau/scss/layout/_main.scss" afterPath="$PROJECT_DIR$/sites/all/themes/areau/scss/layout/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/areau/scss/layout/_triptych.scss" afterPath="$PROJECT_DIR$/sites/all/themes/areau/scss/layout/_triptych.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="areau.iws" />
@@ -45,8 +41,8 @@
       <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/areau/scss/layout/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33406115" vertical-offset="0" max-vertical-offset="1207">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.55676854" vertical-offset="0" max-vertical-offset="1207">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -421,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/areau/scss/layout/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33406115" vertical-offset="0" max-vertical-offset="1207">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.55676854" vertical-offset="0" max-vertical-offset="1207">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>

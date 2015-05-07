@@ -7371,7 +7371,7 @@ a.th {
 /* line 15, ../scss/layout/_header.scss */
 .l-header .navigation .inline-list li:nth-child(4) a {
   text-indent: -9999px;
-  background-image: url(../../images/AAlogo.png);
+  background-image: url(../images/AAlogo.png);
   background-repeat: no-repeat;
   background-size: 50px;
   background-position: center;
