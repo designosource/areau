@@ -7353,56 +7353,103 @@ a.th {
  * See the STARTER/README.txt file regarding "CHANGING FOUNDATION DEFAULT
  * SETTINGS" for documentation.
  */
-/* line 4, ../scss/layout/_header.scss */
-.l-header .navigation {
-  height: 70px;
+/* line 6, ../scss/layout/_header.scss */
+.l-header .navigation #main-menu-links {
+  float: left;
 }
-/* line 7, ../scss/layout/_header.scss */
+/* line 9, ../scss/layout/_header.scss */
 .l-header .navigation .inline-list {
-  margin: 0 auto;
   text-align: center;
 }
-@media only screen and (min-width: 768px) {
-  /* line 7, ../scss/layout/_header.scss */
-  .l-header .navigation .inline-list {
-    height: 70px;
-  }
+/* line 12, ../scss/layout/_header.scss */
+.l-header .navigation .inline-list li {
+  width: 100%;
 }
-/* line 15, ../scss/layout/_header.scss */
-.l-header .navigation .inline-list li:nth-child(4) a {
+/* line 14, ../scss/layout/_header.scss */
+.l-header .navigation .inline-list li a {
+  color: #000100;
+  text-transform: uppercase;
+  padding: 5px;
+  font-size: 0.7rem;
+  background-color: #EAE9E9;
+  letter-spacing: 2px;
+}
+/* line 22, ../scss/layout/_header.scss */
+.l-header .navigation .inline-list li a:hover {
+  text-decoration: underline;
+}
+/* line 25, ../scss/layout/_header.scss */
+.l-header .navigation .inline-list li a.active-trail {
+  background-color: #F3F3F2;
+}
+/* line 30, ../scss/layout/_header.scss */
+.l-header .navigation .inline-list .menu-671 {
+  display: none;
+}
+/* line 33, ../scss/layout/_header.scss */
+.l-header .navigation .inline-list .menu-717 {
+  display: inline-block;
+}
+/* line 35, ../scss/layout/_header.scss */
+.l-header .navigation .inline-list .menu-717 a {
+  margin: 0 auto 10px;
+}
+/* line 40, ../scss/layout/_header.scss */
+.l-header .navigation .inline-list .menu-671 a, .l-header .navigation .inline-list .menu-717 a {
   text-indent: -9999px;
   background-image: url(../images/AAlogo.png);
+  background-color: transparent !important;
   background-repeat: no-repeat;
   background-size: 50px;
   background-position: center;
   height: 50px;
-  margin: 10px 0px;
-}
-/* line 26, ../scss/layout/_header.scss */
-.l-header .navigation .inline-list li {
-  width: 14.2%;
-  margin-left: 0px;
-  float: none;
-}
-@media only screen and (min-width: 768px) {
-  /* line 26, ../scss/layout/_header.scss */
-  .l-header .navigation .inline-list li {
-    float: left;
-  }
-}
-/* line 34, ../scss/layout/_header.scss */
-.l-header .navigation .inline-list li a {
-  color: #000100;
-  text-transform: uppercase;
-  padding: 0px 15px;
-  font-size: 0.7rem;
-  margin: 28.5px 0px;
-}
-/* line 41, ../scss/layout/_header.scss */
-.l-header .navigation .inline-list li a:hover {
-  text-decoration: underline;
+  width: 50px;
 }
 
+@media only screen and (min-width: 768px) {
+  /* line 57, ../scss/layout/_header.scss */
+  .inline-list > li {
+    margin-left: 0.5em;
+  }
+
+  /* line 62, ../scss/layout/_header.scss */
+  .l-header .navigation #main-menu-links {
+    float: left;
+  }
+  /* line 65, ../scss/layout/_header.scss */
+  .l-header .navigation .inline-list {
+    margin: 0 auto;
+    width: 100%;
+  }
+  /* line 68, ../scss/layout/_header.scss */
+  .l-header .navigation .inline-list .menu-671 {
+    background-size: 50px auto;
+    background-position: center center;
+    height: 50px;
+    margin: 10px 0px;
+  }
+  /* line 74, ../scss/layout/_header.scss */
+  .l-header .navigation .inline-list .menu-717 {
+    display: none;
+  }
+  /* line 77, ../scss/layout/_header.scss */
+  .l-header .navigation .inline-list .menu-671 {
+    display: inline-block;
+  }
+  /* line 79, ../scss/layout/_header.scss */
+  .l-header .navigation .inline-list .menu-671 a {
+    margin: 0 auto 10px;
+  }
+  /* line 83, ../scss/layout/_header.scss */
+  .l-header .navigation .inline-list li {
+    width: 13.2%;
+    float: left;
+  }
+  /* line 84, ../scss/layout/_header.scss */
+  .l-header .navigation .inline-list li a {
+    background-color: transparent;
+  }
+}
 /* line 2, ../scss/layout/_main.scss */
 .page {
   margin-top: 60px;

@@ -54,7 +54,7 @@
       <?php endif; ?>
 
       <?php if ($alt_main_menu): ?>
-        <nav id="main-menu" class="navigation" role="navigation">
+        <nav id="main-menu" class="navigation columns small-12 large-12" role="navigation">
           <?php print ($alt_main_menu); ?>
         </nav> <!-- /#main-menu -->
       <?php endif; ?>

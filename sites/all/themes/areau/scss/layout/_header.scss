@@ -2,46 +2,90 @@
 
 .l-header {
   .navigation {
-    height: 70px;
-
+    //height: 70px;
+    #main-menu-links {
+      float: left;
+    }
     .inline-list {
-      margin: 0 auto;
+      //margin: 0 auto;
       text-align: center;
-      @media #{$small} {
-        height: 70px;
-      }
-
-      li:nth-child(4) {
-        a {
-          text-indent: -9999px;
-          background-image: url(../images/AAlogo.png);
-          background-repeat: no-repeat;
-          background-size: 50px;
-          background-position: center;
-          height: 50px;
-          margin: 10px 0px;
-        }
-      }
-
       li {
-        width: 14.2%;
-        margin-left: 0px;
-        float: none;
-        @media #{$small} {
-          float: left;
-        }
-
+        width: 100%; //14.2
         a {
           color: $text;
           text-transform: uppercase;
-          padding: 0px 15px;
+          padding: 5px;
           font-size: 0.7rem;
-          margin: 28.5px 0px;
+          background-color: #EAE9E9;
+          letter-spacing: 2px;
 
           &:hover {
             text-decoration: underline;
           }
+          &.active-trail {
+            background-color: #F3F3F2;
+          }
+        }
+      }
+      .menu-671 { //midden
+        display: none;
+      }
+      .menu-717 { //top
+        display: inline-block;
+        a {
+          margin: 0 auto 10px;
+        }
+      }
+      .menu-671, .menu-717 {
+        a {
+          text-indent: -9999px;
+          background-image: url(../images/AAlogo.png);
+          background-color: transparent !important;
+          background-repeat: no-repeat;
+          background-size: 50px;
+          background-position: center;
+          height: 50px;
+          width: 50px;
+        }
+      }
+    }
+  }
+}
 
+@media #{$small} {
+
+  .inline-list > li {
+    margin-left: 0.5em;
+  }
+  .l-header {
+    .navigation {
+      #main-menu-links {
+        float: left;
+      }
+      .inline-list {
+        margin: 0 auto;
+        width: 100%;
+        .menu-671 { //logo
+          background-size: 50px auto;
+          background-position: center center;
+          height: 50px;
+          margin: 10px 0px;
+        }
+        .menu-717 {
+          display: none;
+        }
+        .menu-671 { //midden
+          display: inline-block;
+          a {
+            margin: 0 auto 10px;
+          }
+        }
+        li {
+          a {
+            background-color: transparent;
+          }
+          width: 13.2%; //14.2
+          float: left;
         }
       }
     }

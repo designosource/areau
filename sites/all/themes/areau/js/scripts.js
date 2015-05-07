@@ -1,9 +1,21 @@
 (function ($, Drupal) {
 
-  Drupal.behaviors.areau = {
-    attach: function(context, settings) {
-      // Get your Yeti started.
-    }
-  };
+    Drupal.behaviors.areau = {
+        attach: function (context, settings) {
+            // Get your Yeti started.
+
+            /*$(document).ready(function () {
+                var width = $(window).width();
+
+                if (width <= 768) {
+                    $('.menu-671').css("display", "none");
+                } else {
+                    $('.menu-717').css("display", "none");
+                }
+
+
+            });*/
+        }
+    };
 
 })(jQuery, Drupal);
