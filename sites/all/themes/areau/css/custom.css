@@ -7402,3 +7402,8 @@ a.th {
 .l-header .navigation .inline-list li a:hover {
   text-decoration: underline;
 }
+
+/* line 2, ../scss/layout/_main.scss */
+.page {
+  margin-top: 60px;
+}
