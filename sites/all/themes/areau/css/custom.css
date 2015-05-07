@@ -7353,44 +7353,44 @@ a.th {
  * See the STARTER/README.txt file regarding "CHANGING FOUNDATION DEFAULT
  * SETTINGS" for documentation.
  */
-/* line 5, ../scss/layout/_header.scss */
+/* line 4, ../scss/layout/_header.scss */
 .l-header .navigation {
   height: 70px;
 }
-/* line 9, ../scss/layout/_header.scss */
+/* line 7, ../scss/layout/_header.scss */
 .l-header .navigation .inline-list {
   margin: 0 auto;
   text-align: center;
 }
 @media only screen and (min-width: 768px) {
-  /* line 9, ../scss/layout/_header.scss */
+  /* line 7, ../scss/layout/_header.scss */
   .l-header .navigation .inline-list {
     height: 70px;
   }
 }
-/* line 19, ../scss/layout/_header.scss */
+/* line 15, ../scss/layout/_header.scss */
 .l-header .navigation .inline-list li:nth-child(4) a {
   text-indent: -9999px;
-  background-image: url(../../../../default/files/custom_images/AAlogo.png);
+  background-image: url(../../images/AAlogo.png);
   background-repeat: no-repeat;
   background-size: 50px;
   background-position: center;
   height: 50px;
   margin: 10px 0px;
 }
-/* line 31, ../scss/layout/_header.scss */
+/* line 26, ../scss/layout/_header.scss */
 .l-header .navigation .inline-list li {
   width: 14.2%;
   margin-left: 0px;
   float: none;
 }
 @media only screen and (min-width: 768px) {
-  /* line 31, ../scss/layout/_header.scss */
+  /* line 26, ../scss/layout/_header.scss */
   .l-header .navigation .inline-list li {
     float: left;
   }
 }
-/* line 40, ../scss/layout/_header.scss */
+/* line 34, ../scss/layout/_header.scss */
 .l-header .navigation .inline-list li a {
   color: #000100;
   text-transform: uppercase;
@@ -7398,7 +7398,7 @@ a.th {
   font-size: 0.7rem;
   margin: 28.5px 0px;
 }
-/* line 48, ../scss/layout/_header.scss */
+/* line 41, ../scss/layout/_header.scss */
 .l-header .navigation .inline-list li a:hover {
   text-decoration: underline;
 }

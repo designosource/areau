@@ -1,67 +1,65 @@
 // Non-modular or client styles for .l-header region.
 
-.l-header 
-{
-        .navigation
-        {
-            height: 70px;
-            
-            .inline-list
-            {
-                margin: 0 auto;
-                text-align: center;
-                @media #{$small} {
-                    height: 70px;
-                }
-                
-                li:nth-child(4)
-                { 
-                    a
-                    {
-                        text-indent: -9999px;
-                        background-image: url(../../../../default/files/custom_images/AAlogo.png);
-                        background-repeat: no-repeat;
-                        background-size: 50px;
-                        background-position: center;
-                        height: 50px;
-                        margin: 10px 0px;
-                    }  
-                }
-                
-                li
-                {
-                    width: 14.2%;
-                    margin-left: 0px;
-                    float: none;
-                    @media #{$small} {
-                        float: left;
-                    }
-                    
-                    a
-                    {
-                        color: $text;
-                        text-transform: uppercase;
-                        padding: 0px 15px;
-                        font-size: 0.7rem;
-                        margin: 28.5px 0px;
-                        
-                        &:hover
-                        {
-                            text-decoration: underline;
-                        }
-                        
-                    }
-                }
-            }
+.l-header {
+  .navigation {
+    height: 70px;
+
+    .inline-list {
+      margin: 0 auto;
+      text-align: center;
+      @media #{$small} {
+        height: 70px;
+      }
+
+      li:nth-child(4) {
+        a {
+          text-indent: -9999px;
+          background-image: url(../../images/AAlogo.png);
+          background-repeat: no-repeat;
+          background-size: 50px;
+          background-position: center;
+          height: 50px;
+          margin: 10px 0px;
         }
+      }
+
+      li {
+        width: 14.2%;
+        margin-left: 0px;
+        float: none;
+        @media #{$small} {
+          float: left;
+        }
+
+        a {
+          color: $text;
+          text-transform: uppercase;
+          padding: 0px 15px;
+          font-size: 0.7rem;
+          margin: 28.5px 0px;
+
+          &:hover {
+            text-decoration: underline;
+          }
+
+        }
+      }
+    }
+  }
 }
 
 // Top Bar
 //--------------------------------------------------
 .top-bar {
-  .title-area {}
+  .title-area {
+  }
 }
 
-.top-bar-section {}
-.top-bar-section .left {}
-.top-bar-section .right {}
+.top-bar-section {
+}
+
+.top-bar-section .left {
+}
+
+.top-bar-section .right {
+}
