@@ -68,6 +68,7 @@ img {
   pointer-events: auto;
   top: 50%;
   width: 42px;
+  display: none !important;
 }
 
 .slick-prev:active,
