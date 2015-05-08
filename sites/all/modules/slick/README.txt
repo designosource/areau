@@ -141,7 +141,7 @@ Optional skins:
   yourself.
 
 - 3d back
-  Adds 3d view with focal point at back, works best with 3 slidesToShow,
+  Adds 3d view with focal point andt back, works best with 3 slidesToShow,
   centerMode, and caption below the slide.
 
 - Classic
