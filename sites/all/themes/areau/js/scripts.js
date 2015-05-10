@@ -10,7 +10,7 @@
                 if (width <= 768) {
                     $('.menu-671').css("display", "none");
                 } else {
-                    $('.menu-717').css("display", "none");
+                    $('.menu-719').css("display", "none");
                 }
 
 

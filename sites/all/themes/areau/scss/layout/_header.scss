@@ -3,16 +3,20 @@
 .l-header {
   .navigation {
     //height: 70px;
+    padding: 0px;
     #main-menu-links {
       float: left;
+      width: 100%;    
     }
     .inline-list {
-      //margin: 0 auto;
+      margin: 0 auto;
       text-align: center;
       li {
         width: 100%; //14.2
+        margin-left: 0px;  
         a {
           color: $text;
+          font-family: 'DinRegular';    
           text-transform: uppercase;
           padding: 5px;
           font-size: 0.7rem;
@@ -30,13 +34,13 @@
       .menu-671 { //midden
         display: none;
       }
-      .menu-717 { //top
+      .menu-719 { //top
         display: inline-block;
         a {
           margin: 0 auto 10px;
         }
       }
-      .menu-671, .menu-717 {
+      .menu-671, .menu-719 {
         a {
           text-indent: -9999px;
           background-image: url(../images/AAlogo.png);
@@ -71,7 +75,7 @@
           height: 50px;
           margin: 10px 0px;
         }
-        .menu-717 {
+        .menu-719 {
           display: none;
         }
         .menu-671 { //midden
@@ -80,16 +84,64 @@
             margin: 0 auto 10px;
           }
         }
-        li {
+        li {   
           a {
-            background-color: transparent;
+            background-color: transparent; 
+            font-size: 0.55rem;  
           }
-          width: 13.2%; //14.2
+          width: 14.2%; //14.2
           float: left;
+        }
+        //width verdeling percentages  
+        li:nth-child(2)
+        {
+          width: 17.2%;
+        }
+        li:nth-child(3),
+        li:nth-child(4)  
+        {
+          width: 12.2%;
+        }  
+        li:nth-child(6)
+        {
+          width: 13.2%;
+        }
+        li:nth-child(7)
+        {
+           width: 19.2%; 
+        }
+        li:nth-child(8)
+        {
+           width: 10.2%; 
+        }
+        li:nth-child(2),  
+        li:nth-child(3),
+        li:nth-child(4),
+        li:nth-child(6),
+        li:nth-child(7),
+        li:nth-child(8)
+        {
+            padding: 20px 0px;
         }
       }
     }
   }
+}
+
+@media #{$medium} {
+
+    .l-header {
+      .navigation{
+        .inline-list {
+          li {
+            a 
+            {
+              font-size: 0.7rem;  
+            } 
+          }
+        }
+      }
+    }
 }
 
 // Top Bar

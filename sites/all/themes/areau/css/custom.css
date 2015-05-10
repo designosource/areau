@@ -25,6 +25,16 @@
  * - https://drupal.org/node/1887922
  * - http://smacss.com/
  */
+@font-face {
+  font-family: 'DinRegular';
+  src: url("../fonts/Din/dinregularwebfont.eot");
+  src: local("dinregularwebfont"), url("../fonts/Din/dinregularwebfont.woff") format("woff"), url("../fonts/Din/dinregularwebfont.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'DinLight';
+  src: url("../fonts/Din/DINProLight.eot");
+  src: local("DINProLight"), url("../fonts/Din/DINProLight.woff") format("woff"), url("../fonts/Din/DINProLight.ttf") format("truetype");
+}
 /*
  * Theme specific variables. This takes the place of the normal _settings.scss.
  * See the STARTER/README.txt file regarding "CHANGING FOUNDATION DEFAULT
@@ -7353,49 +7363,57 @@ a.th {
  * See the STARTER/README.txt file regarding "CHANGING FOUNDATION DEFAULT
  * SETTINGS" for documentation.
  */
-/* line 6, ../scss/layout/_header.scss */
+/* line 4, ../scss/layout/_header.scss */
+.l-header .navigation {
+  padding: 0px;
+}
+/* line 7, ../scss/layout/_header.scss */
 .l-header .navigation #main-menu-links {
   float: left;
-}
-/* line 9, ../scss/layout/_header.scss */
-.l-header .navigation .inline-list {
-  text-align: center;
-}
-/* line 12, ../scss/layout/_header.scss */
-.l-header .navigation .inline-list li {
   width: 100%;
 }
+/* line 11, ../scss/layout/_header.scss */
+.l-header .navigation .inline-list {
+  margin: 0 auto;
+  text-align: center;
+}
 /* line 14, ../scss/layout/_header.scss */
+.l-header .navigation .inline-list li {
+  width: 100%;
+  margin-left: 0px;
+}
+/* line 17, ../scss/layout/_header.scss */
 .l-header .navigation .inline-list li a {
   color: #000100;
+  font-family: 'DinRegular';
   text-transform: uppercase;
   padding: 5px;
   font-size: 0.7rem;
   background-color: #EAE9E9;
   letter-spacing: 2px;
 }
-/* line 22, ../scss/layout/_header.scss */
+/* line 26, ../scss/layout/_header.scss */
 .l-header .navigation .inline-list li a:hover {
   text-decoration: underline;
 }
-/* line 25, ../scss/layout/_header.scss */
+/* line 29, ../scss/layout/_header.scss */
 .l-header .navigation .inline-list li a.active-trail {
   background-color: #F3F3F2;
 }
-/* line 30, ../scss/layout/_header.scss */
+/* line 34, ../scss/layout/_header.scss */
 .l-header .navigation .inline-list .menu-671 {
   display: none;
 }
-/* line 33, ../scss/layout/_header.scss */
-.l-header .navigation .inline-list .menu-717 {
+/* line 37, ../scss/layout/_header.scss */
+.l-header .navigation .inline-list .menu-719 {
   display: inline-block;
 }
-/* line 35, ../scss/layout/_header.scss */
-.l-header .navigation .inline-list .menu-717 a {
+/* line 39, ../scss/layout/_header.scss */
+.l-header .navigation .inline-list .menu-719 a {
   margin: 0 auto 10px;
 }
-/* line 40, ../scss/layout/_header.scss */
-.l-header .navigation .inline-list .menu-671 a, .l-header .navigation .inline-list .menu-717 a {
+/* line 44, ../scss/layout/_header.scss */
+.l-header .navigation .inline-list .menu-671 a, .l-header .navigation .inline-list .menu-719 a {
   text-indent: -9999px;
   background-image: url(../images/AAlogo.png);
   background-color: transparent !important;
@@ -7407,47 +7425,84 @@ a.th {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 57, ../scss/layout/_header.scss */
+  /* line 61, ../scss/layout/_header.scss */
   .inline-list > li {
     margin-left: 0.5em;
   }
 
-  /* line 62, ../scss/layout/_header.scss */
+  /* line 66, ../scss/layout/_header.scss */
   .l-header .navigation #main-menu-links {
     float: left;
   }
-  /* line 65, ../scss/layout/_header.scss */
+  /* line 69, ../scss/layout/_header.scss */
   .l-header .navigation .inline-list {
     margin: 0 auto;
     width: 100%;
   }
-  /* line 68, ../scss/layout/_header.scss */
+  /* line 72, ../scss/layout/_header.scss */
   .l-header .navigation .inline-list .menu-671 {
     background-size: 50px auto;
     background-position: center center;
     height: 50px;
     margin: 10px 0px;
   }
-  /* line 74, ../scss/layout/_header.scss */
-  .l-header .navigation .inline-list .menu-717 {
+  /* line 78, ../scss/layout/_header.scss */
+  .l-header .navigation .inline-list .menu-719 {
     display: none;
   }
-  /* line 77, ../scss/layout/_header.scss */
+  /* line 81, ../scss/layout/_header.scss */
   .l-header .navigation .inline-list .menu-671 {
     display: inline-block;
   }
-  /* line 79, ../scss/layout/_header.scss */
+  /* line 83, ../scss/layout/_header.scss */
   .l-header .navigation .inline-list .menu-671 a {
     margin: 0 auto 10px;
   }
-  /* line 83, ../scss/layout/_header.scss */
+  /* line 87, ../scss/layout/_header.scss */
   .l-header .navigation .inline-list li {
-    width: 13.2%;
+    width: 14.2%;
     float: left;
   }
-  /* line 84, ../scss/layout/_header.scss */
+  /* line 88, ../scss/layout/_header.scss */
   .l-header .navigation .inline-list li a {
     background-color: transparent;
+    font-size: 0.55rem;
+  }
+  /* line 96, ../scss/layout/_header.scss */
+  .l-header .navigation .inline-list li:nth-child(2) {
+    width: 17.2%;
+  }
+  /* line 100, ../scss/layout/_header.scss */
+  .l-header .navigation .inline-list li:nth-child(3),
+  .l-header .navigation .inline-list li:nth-child(4) {
+    width: 12.2%;
+  }
+  /* line 105, ../scss/layout/_header.scss */
+  .l-header .navigation .inline-list li:nth-child(6) {
+    width: 13.2%;
+  }
+  /* line 109, ../scss/layout/_header.scss */
+  .l-header .navigation .inline-list li:nth-child(7) {
+    width: 19.2%;
+  }
+  /* line 113, ../scss/layout/_header.scss */
+  .l-header .navigation .inline-list li:nth-child(8) {
+    width: 10.2%;
+  }
+  /* line 117, ../scss/layout/_header.scss */
+  .l-header .navigation .inline-list li:nth-child(2),
+  .l-header .navigation .inline-list li:nth-child(3),
+  .l-header .navigation .inline-list li:nth-child(4),
+  .l-header .navigation .inline-list li:nth-child(6),
+  .l-header .navigation .inline-list li:nth-child(7),
+  .l-header .navigation .inline-list li:nth-child(8) {
+    padding: 20px 0px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  /* line 137, ../scss/layout/_header.scss */
+  .l-header .navigation .inline-list li a {
+    font-size: 0.7rem;
   }
 }
 /* line 2, ../scss/layout/_main.scss */

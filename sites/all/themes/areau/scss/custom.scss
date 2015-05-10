@@ -25,7 +25,18 @@
  * - https://drupal.org/node/1887922
  * - http://smacss.com/
  */
+//fonts
+@font-face {
+	font-family: 'DinRegular';
+	src: url('../fonts/Din/dinregularwebfont.eot');
+	src: local('dinregularwebfont'), url('../fonts/Din/dinregularwebfont.woff') format('woff'), url('../fonts/Din/dinregularwebfont.ttf') format('truetype');
+}
 
+@font-face {
+	font-family: 'DinLight';
+	src: url('../fonts/Din/DINProLight.eot');
+	src: local('DINProLight'), url('../fonts/Din/DINProLight.woff') format('woff'), url('../fonts/Din/DINProLight.ttf') format('truetype');
+}
 
 // Base
 //
