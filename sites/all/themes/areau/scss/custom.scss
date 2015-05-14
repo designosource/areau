@@ -138,6 +138,8 @@ td {
 
 .views-row{
 	position: relative;
+	opacity: 0.8;
+	transition: all 1s ease;
 }
 
 .views-field-field-foto-titel{
@@ -152,6 +154,7 @@ td {
 
 .views-field-field-foto-titel p{
 	padding: 20px;
+	margin-bottom: 0;
 }
 
 .views-field-field-foto-tekst{
@@ -165,7 +168,11 @@ td {
 }
 
 .views-field-field-foto-tekst p{
-	padding-bottom: 30px;	
+	padding: 0 30px 30px 30px;
+	margin-bottom: 0;
+	text-align: left;	
 }
 
-
+.views-row:hover{
+	opacity: 1;
+}

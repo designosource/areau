@@ -7577,9 +7577,11 @@ td {
 /* line 139, ../scss/custom.scss */
 .views-row {
   position: relative;
+  opacity: 0.8;
+  transition: all 1s ease;
 }
 
-/* line 143, ../scss/custom.scss */
+/* line 145, ../scss/custom.scss */
 .views-field-field-foto-titel {
   position: absolute;
   top: 50px;
@@ -7590,12 +7592,13 @@ td {
   opacity: 0.4;
 }
 
-/* line 153, ../scss/custom.scss */
+/* line 155, ../scss/custom.scss */
 .views-field-field-foto-titel p {
   padding: 20px;
+  margin-bottom: 0;
 }
 
-/* line 157, ../scss/custom.scss */
+/* line 160, ../scss/custom.scss */
 .views-field-field-foto-tekst {
   position: absolute;
   top: 115px;
@@ -7606,7 +7609,14 @@ td {
   opacity: 0.4;
 }
 
-/* line 167, ../scss/custom.scss */
+/* line 170, ../scss/custom.scss */
 .views-field-field-foto-tekst p {
-  padding-bottom: 30px;
+  padding: 0 30px 30px 30px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+/* line 176, ../scss/custom.scss */
+.views-row:hover {
+  opacity: 1;
 }
