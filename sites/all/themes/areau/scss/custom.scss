@@ -135,3 +135,37 @@ td {
   direction: ltr;
   list-style: none;
 }
+
+.views-row{
+	position: relative;
+}
+
+.views-field-field-foto-titel{
+	position: absolute;
+	top: 50px;
+	width: 50%;
+	left: 25%;
+	background-color: white;
+	color: black;
+	opacity: 0.4;
+}
+
+.views-field-field-foto-titel p{
+	padding: 20px;
+}
+
+.views-field-field-foto-tekst{
+	position: absolute;
+	top: 115px;
+	width: 50%;
+	left: 25%;
+	background-color: white;
+	color: black;
+	opacity: 0.4;
+}
+
+.views-field-field-foto-tekst p{
+	padding-bottom: 30px;	
+}
+
+

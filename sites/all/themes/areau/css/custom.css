@@ -7573,3 +7573,40 @@ td {
   direction: ltr;
   list-style: none;
 }
+
+/* line 139, ../scss/custom.scss */
+.views-row {
+  position: relative;
+}
+
+/* line 143, ../scss/custom.scss */
+.views-field-field-foto-titel {
+  position: absolute;
+  top: 50px;
+  width: 50%;
+  left: 25%;
+  background-color: white;
+  color: black;
+  opacity: 0.4;
+}
+
+/* line 153, ../scss/custom.scss */
+.views-field-field-foto-titel p {
+  padding: 20px;
+}
+
+/* line 157, ../scss/custom.scss */
+.views-field-field-foto-tekst {
+  position: absolute;
+  top: 115px;
+  width: 50%;
+  left: 25%;
+  background-color: white;
+  color: black;
+  opacity: 0.4;
+}
+
+/* line 167, ../scss/custom.scss */
+.views-field-field-foto-tekst p {
+  padding-bottom: 30px;
+}
