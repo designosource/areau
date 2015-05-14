@@ -33,14 +33,6 @@
       }
       .menu-671 { //midden
         display: none;
-      }
-      .menu-719 { //top
-        display: inline-block;
-        a {
-          margin: 0 auto 10px;
-        }
-      }
-      .menu-671, .menu-719 {
         a {
           text-indent: -9999px;
           background-image: url(../images/AAlogo.png);
@@ -50,6 +42,32 @@
           background-position: center;
           height: 50px;
           width: 50px;
+        }
+      }
+      .menu-719 { //top
+        display: inline-block;
+        height: 70px;  
+        a {
+          display: inline-block;    
+          margin-right: 60%;
+          margin-bottom: 15px;
+          text-indent: -9999px;
+          background-image: url(../images/AAlogo.png);
+          background-color: transparent !important;
+          background-repeat: no-repeat;
+          background-size: 50px;
+          background-position: left;
+          height: 50px;
+          width: 50px;    
+        }
+        .hamburger {
+          display: inline-block;
+          width: 35px;
+          margin-top: 22px; 
+          cursor: pointer;
+          &:hover {
+            opacity: 0.6;
+          }    
         }
       }
     }
