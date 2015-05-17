@@ -6029,7 +6029,7 @@ label.error {
 /* Breadcrumbs */
 /* line 115, C:/Ruby21/lib/ruby/gems/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs {
-  display: block;
+  display: none !important;    
   padding: 0.5625em 0.875em 0.5625em;
   overflow: hidden;
   margin-left: 0;
@@ -7537,6 +7537,7 @@ a.th {
   margin-top: 60px;
 }
 
+<<<<<<< HEAD
 /* line 2, ../scss/layout/_views.scss */
 .front .views-row {
   margin-bottom: 0.9375em;
@@ -7558,6 +7559,14 @@ a.th {
 }
 
 /* line 86, ../scss/custom.scss */
+=======
+/* line 18, ../scss/layout/_main.scss */
+.breadcrumb {
+  display: none !important;
+}
+
+/* line 85, ../scss/custom.scss */
+>>>>>>> liesbeth
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
   background-color: #E1D1C3;
   border: 0px;
