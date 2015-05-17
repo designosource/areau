@@ -7533,7 +7533,11 @@ a.th {
 }
 
 /* line 2, ../scss/layout/_views.scss */
-.views-row .views-field-field-foto-tekst {
+.front .views-row {
+  margin-bottom: 0.9375em;
+}
+/* line 4, ../scss/layout/_views.scss */
+.front .views-row .views-field-field-foto-tekst {
   -webkit-opacity: 0.25;
   -moz-opacity: 0.25;
   opacity: 0.15;
@@ -7543,8 +7547,8 @@ a.th {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-/* line 13, ../scss/layout/_views.scss */
-.views-row:hover .views-field-field-foto-tekst {
+/* line 15, ../scss/layout/_views.scss */
+.front .views-row:hover .views-field-field-foto-tekst {
   opacity: 1;
 }
 

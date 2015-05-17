@@ -1,17 +1,21 @@
-.views-row {
-  .views-field-field-foto-tekst {
-    -webkit-opacity: 0.25;
-    -moz-opacity: 0.25;
-    opacity: 0.15;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -ms-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+.front {
+  .views-row {
+    margin-bottom: $column-gutter/2;
+    .views-field-field-foto-tekst {
+      -webkit-opacity: 0.25;
+      -moz-opacity: 0.25;
+      opacity: 0.15;
+      -webkit-transition: opacity 1s ease-in-out;
+      -moz-transition: opacity 1s ease-in-out;
+      -ms-transition: opacity 1s ease-in-out;
+      -o-transition: opacity 1s ease-in-out;
+      transition: opacity 1s ease-in-out;
 
+    }
+    &:hover .views-field-field-foto-tekst {
+      opacity: 1;
+    }
   }
-  &:hover .views-field-field-foto-tekst {
-    opacity: 1;
-  }
+
 }
 
