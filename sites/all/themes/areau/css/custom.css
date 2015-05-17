@@ -7357,6 +7357,11 @@ a.th {
   display: inline-block;
 }
 
+/* line 1, ../scss/base/_customClasses.scss */
+.no-opacity {
+  opacity: 0 !important;
+}
+
 /* AREAU COLORS */
 /*
  * Theme specific variables. This takes the place of the normal _settings.scss.

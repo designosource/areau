@@ -181,17 +181,18 @@
     <section class="panel row l-footer-columns">
       <?php  ?>
         <div class="footer-first large-3 columns">
+            <p class="no-opacity">test</p>
           <?php print render($page['footer_firstcolumn']); ?>
         </div>
-      <?php  ?>
-      <?php  ?>
+      <?php ?>
+      <?php ?>
         <div class="footer-second large-6 columns">
           <?php print render($page['footer_secondcolumn']); ?>
         </div>
       <?php  ?>
       <?php ?>
-        <div class="footer-fourth large-3 columns">
-          <?php print render($page['footer_fourthcolumn']); ?>
+        <div class="footer-third large-3 columns">
+          <?php print render($page['footer_thirdcolumn']); ?>
         </div>
       <?php  ?>
     </section>
