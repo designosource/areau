@@ -1,5 +1,8 @@
 .front {
   .views-row {
+    position: relative; 
+    opacity: 0.9;
+	transition: all 2s ease;  
     margin-bottom: $column-gutter/2;
     .views-field-field-foto-tekst {
       -webkit-opacity: 0.25;
@@ -10,6 +13,31 @@
       -ms-transition: opacity 1s ease-in-out;
       -o-transition: opacity 1s ease-in-out;
       transition: opacity 1s ease-in-out;
+      position: absolute;
+	  top: 25%;
+      height: 50%;    
+	  width: 80%;
+      left: 10%;
+	  background: rgba(255, 255, 255, .4);
+	  color: $text;
+      letter-spacing: 1.5px;    
+           
+      p {
+        padding: 10% 10%;
+        margin-bottom: 0;
+        text-align: left;	
+        opacity: 1;
+        text-align: center;
+        font-size: 0.8rem;
+        em {
+          font-size: 0.7rem;
+          letter-spacing: 0px;       
+        }  
+      }
+      p:nth-child(2),
+      p:nth-child(3) {
+        display: none;
+      }      
 
     }
     &:hover .views-field-field-foto-tekst {
@@ -19,3 +47,54 @@
 
 }
 
+@media #{$small} {
+    
+    .front {
+        .views-row {
+            .views-field-field-foto-tekst {
+                width: 35%;
+                left: 32.5%;
+                height: 70%;
+                top: 15%;
+                background-image: url(../images/foot.png);
+                background-repeat: no-repeat;
+                background-position: center 95%;
+                background-size: 160px;
+                p {
+                  padding: 10% 30px;    
+                  font-size: 1rem;
+                  em {
+                    font-size: 0.9rem;
+                  }    
+                }
+                
+                p:nth-child(2),
+                p:nth-child(3) {
+                  display: block;
+                  font-size: 0rem;
+                  span {
+                    font-size: 0.6rem;
+                  } 
+                  em {
+                   letter-spacing: 1.5px;
+                  }    
+                }
+            }
+        }
+    }
+    
+}
+
+@media #{$medium} {
+    
+    .front {
+        .views-row {
+            .views-field-field-foto-tekst {
+                p {
+                
+                }
+            }
+        }
+    }
+    
+}

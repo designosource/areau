@@ -13,7 +13,7 @@
                     var li3 = $('.menu-511');
                     var li5 = $('.menu-512');
                     var li6 = $('.menu-513');
-                    var li7 = $('.menu-514');
+                    var li7 = $('.menu-933');
                 
                     $('.hamburger').on('click', function(){
                     if($(this).hasClass('open') == false)
