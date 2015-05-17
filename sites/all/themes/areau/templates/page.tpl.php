@@ -178,7 +178,7 @@
 
   <?php if (!empty($page['footer_firstcolumn']) || !empty($page['footer_secondcolumn']) || !empty($page['footer_thirdcolumn']) || !empty($page['footer_fourthcolumn'])): ?>
     <!--.footer-columns -->
-    <section class="row l-footer-columns">
+    <section class="panel row l-footer-columns">
       <?php if (!empty($page['footer_firstcolumn'])): ?>
         <div class="footer-first large-3 columns">
           <?php print render($page['footer_firstcolumn']); ?>
@@ -204,19 +204,19 @@
   <?php endif; ?>
 
   <!--.l-footer-->
-  <footer class="l-footer panel row" role="contentinfo">
-    <?php if (!empty($page['footer'])): ?>
-      <div class="footer large-12 columns">
-        <?php print render($page['footer']); ?>
-      </div>
-    <?php endif; ?>
-
-    <?php if ($site_name) :?>
-      <div class="copyright large-12 columns">
-        &copy; <?php print date('Y') . ' ' . check_plain($site_name) . ' ' . t('All rights reserved.'); ?>
-      </div>
-    <?php endif; ?>
-  </footer>
+<!--  <footer class="l-footer panel row" role="contentinfo">-->
+<!--    --><?php //if (!empty($page['footer'])): ?>
+<!--      <div class="footer large-12 columns">-->
+<!--        --><?php //print render($page['footer']); ?>
+<!--      </div>-->
+<!--    --><?php //endif; ?>
+<!---->
+<!--    --><?php //if ($site_name) :?>
+<!--      <div class="copyright large-12 columns">-->
+<!--        &copy; --><?php //print date('Y') . ' ' . check_plain($site_name) . ' ' . t('All rights reserved.'); ?>
+<!--      </div>-->
+<!--    --><?php //endif; ?>
+<!--  </footer>-->
   <!--/.footer-->
 
   <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
