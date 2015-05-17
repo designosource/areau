@@ -6029,7 +6029,7 @@ label.error {
 /* Breadcrumbs */
 /* line 115, ../../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.3.2/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs {
-  display: block;
+  display: none !important;    
   padding: 0.5625em 0.875em 0.5625em;
   overflow: hidden;
   margin-left: 0;
@@ -7530,6 +7530,11 @@ a.th {
 /* line 2, ../scss/layout/_main.scss */
 .page {
   margin-top: 60px;
+}
+
+/* line 18, ../scss/layout/_main.scss */
+.breadcrumb {
+  display: none !important;
 }
 
 /* line 85, ../scss/custom.scss */
