@@ -179,26 +179,21 @@
   <?php if (!empty($page['footer_firstcolumn']) || !empty($page['footer_secondcolumn']) || !empty($page['footer_thirdcolumn']) || !empty($page['footer_fourthcolumn'])): ?>
     <!--.footer-columns -->
     <section class="panel row l-footer-columns">
-      <?php if (!empty($page['footer_firstcolumn'])): ?>
+      <?php  ?>
         <div class="footer-first large-3 columns">
           <?php print render($page['footer_firstcolumn']); ?>
         </div>
-      <?php endif; ?>
-      <?php if (!empty($page['footer_secondcolumn'])): ?>
-        <div class="footer-second large-3 columns">
+      <?php  ?>
+      <?php  ?>
+        <div class="footer-second large-6 columns">
           <?php print render($page['footer_secondcolumn']); ?>
         </div>
-      <?php endif; ?>
-      <?php if (!empty($page['footer_thirdcolumn'])): ?>
-        <div class="footer-third large-3 columns">
-          <?php print render($page['footer_thirdcolumn']); ?>
-        </div>
-      <?php endif; ?>
-      <?php if (!empty($page['footer_fourthcolumn'])): ?>
+      <?php  ?>
+      <?php ?>
         <div class="footer-fourth large-3 columns">
           <?php print render($page['footer_fourthcolumn']); ?>
         </div>
-      <?php endif; ?>
+      <?php  ?>
     </section>
     <!--/.footer-columns-->
   <?php endif; ?>
