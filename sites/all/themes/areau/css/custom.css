@@ -7389,7 +7389,7 @@ a.th {
 }
 /* line 17, ../scss/layout/_header.scss */
 .l-header .navigation .inline-list li a {
-  color: #000100;
+  color: #050506;
   font-family: 'DinRegular';
   text-transform: uppercase;
   padding: 5px;
@@ -7542,6 +7542,26 @@ ul .breadcrumb {
   display: none !important;
 }
 
+/* line 6, ../scss/layout/_footer.scss */
+.l-footer-columns {
+  background-image: url(../images/contact.jpg);
+}
+/* line 9, ../scss/layout/_footer.scss */
+.l-footer-columns .node-webform {
+  margin-top: 30px;
+}
+/* line 12, ../scss/layout/_footer.scss */
+.l-footer-columns .node-webform .node-title {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-family: 'DinRegular';
+}
+/* line 16, ../scss/layout/_footer.scss */
+.l-footer-columns .node-webform .node-title a {
+  color: #050506;
+  letter-spacing: 1.5px;
+}
+
 /* line 2, ../scss/layout/_views.scss */
 .front .views-row {
   position: relative;
@@ -7565,7 +7585,7 @@ ul .breadcrumb {
   width: 80%;
   left: 10%;
   background: rgba(255, 255, 255, 0.4);
-  color: #000100;
+  color: #050506;
   letter-spacing: 1.5px;
 }
 /* line 25, ../scss/layout/_views.scss */
@@ -7632,43 +7652,45 @@ ul .breadcrumb {
 }
 /* line 86, ../scss/custom.scss */
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
-  background-color: #E1D1C3;
+  background-color: rgba(255, 255, 255, 0.4);
   border: 0px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: #ACA196;
+  color: #050506;
 }
 
 /* line 93, ../scss/custom.scss */
 input[placeholder] {
-  color: #ACA196;
+  color: #776531;
 }
 
 /* line 96, ../scss/custom.scss */
 button.form-submit, button.webform-submit, button.secondary, .button.secondary {
   border: 1px solid #B9AEA1;
-  background-color: #E4D7C6;
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
   font-family: DinLight, sans-serif;
   text-transform: uppercase;
+  width: 100%;
+  font-size: 0.8rem;
 }
 
-/* line 105, ../scss/custom.scss */
+/* line 107, ../scss/custom.scss */
 textarea {
   height: 10em;
 }
 
-/* line 108, ../scss/custom.scss */
+/* line 110, ../scss/custom.scss */
 .form-select {
   padding: 5px;
-  background-color: #E1D1C3;
+  background-color: rgba(255, 255, 255, 0.4);
   border: none;
-  color: #ACA196;
+  color: #776531;
 }
 
-/* line 115, ../scss/custom.scss */
+/* line 117, ../scss/custom.scss */
 div,
 dl,
 dt,

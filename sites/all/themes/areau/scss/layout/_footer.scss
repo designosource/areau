@@ -4,5 +4,20 @@
 }
 
 .l-footer-columns {
-}
+    background-image: url(../images/contact.jpg);
+    
+    .node-webform {
+      margin-top: 30px;
 
+      .node-title {
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      font-family: 'DinRegular';
+          a {
+            color: $text;
+            letter-spacing: 1.5px;
+          }
+      }
+    }
+    
+}
