@@ -178,7 +178,7 @@
 
   <?php if (!empty($page['footer_firstcolumn']) || !empty($page['footer_secondcolumn']) || !empty($page['footer_thirdcolumn']) || !empty($page['footer_fourthcolumn'])): ?>
     <!--.footer-columns -->
-    <section class="panel row l-footer-columns">
+    <section class= "row l-footer-columns">
       <?php  ?>
         <div class="footer-first large-3 columns">
             <p class="no-opacity">test</p>
