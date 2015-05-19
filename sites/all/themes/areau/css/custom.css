@@ -7723,3 +7723,8 @@ td {
   position: relative;
   top: 1px;
 }
+
+/* line 149, ../scss/custom.scss */
+.block span a {
+  color: #222;
+}
