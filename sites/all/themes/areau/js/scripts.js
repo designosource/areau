@@ -6,6 +6,8 @@
 
             $(document).ready(function () {
                 console.log('ready');
+
+                //1. MENU    
                 $('.menu-719').append("<img class='hamburger' src='sites/all/themes/areau/images/mobile.png' />");
                 
                     var li1 = $('.menu-718');
@@ -41,7 +43,6 @@
                     
                 });
                 
-                
                 checkWidth();
                 
                 $(window).resize(checkWidth);
@@ -68,6 +69,35 @@
                     $('.hamburger').css({'opacity':1}); 
                 }
                 }
+                
+            //2. PRIJS-PROJECT-INFO
+            var info = $('#edit-submitted-prijs-project-info-1');
+            var brochure = $('#edit-submitted-brochure-werkwijze-1'); 
+            var info_button = $('.webform-component--prijs---project---info');
+            var brochure_button = $('.webform-component--brochure---werkwijze');
+                
+            $('.webform-component--brochure---werkwijze').on('click', function(){
+                optionsChecked(brochure, brochure_button);
+            });
+                
+            $('.webform-component--prijs---project---info').on('click', function(){
+                optionsChecked(info, info_button);
+            });
+                
+            function optionsChecked(c, t){
+                if(c.prop("checked") === true)
+                {
+                    t.css({'box-shadow':'none'});
+                    c.attr('checked', false);
+                    console.log('not checked');
+                }
+                else
+                {
+                    t.css({'box-shadow':'inset 0 0 10px #B9AEA1'});
+                    c.prop('checked', true);
+                    console.log('checked');
+                }
+            }    
     
             });
         }
