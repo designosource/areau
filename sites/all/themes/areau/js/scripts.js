@@ -1,7 +1,7 @@
 (function($, Drupal){
     $(document).ready(function(){
        $(window).bind('scroll', function() {
-       var navHeight = $( window ).height() - 70;
+       var navHeight = $( window ).height() - 300;
              if ($(window).scrollTop() > navHeight) {
                  $('nav').addClass('fixed');
              }
