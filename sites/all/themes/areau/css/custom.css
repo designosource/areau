@@ -7925,7 +7925,22 @@ ul .breadcrumb {
     letter-spacing: 1.5px;
   }
 }
-/* line 87, ../scss/custom.scss */
+/* line 1, ../scss/layout/_video.scss */
+.Videowrapper {
+  width: 100%;
+}
+
+/* line 5, ../scss/layout/_video.scss */
+video {
+  width: 100%;
+}
+
+/* line 9, ../scss/layout/_video.scss */
+.fullW {
+  padding: 0%;
+}
+
+/* line 88, ../scss/custom.scss */
 div,
 dl,
 dt,
@@ -7951,7 +7966,7 @@ td {
   list-style: none;
 }
 
-/* line 111, ../scss/custom.scss */
+/* line 112, ../scss/custom.scss */
 #at_areau {
   width: 15px;
   margin: 0 2px;
@@ -7959,7 +7974,7 @@ td {
   top: 1px;
 }
 
-/* line 119, ../scss/custom.scss */
+/* line 120, ../scss/custom.scss */
 .block span a {
   color: #222;
 }
