@@ -76,9 +76,11 @@
       <?php endif; ?>
 
       <?php if ($alt_main_menu): ?>
-        <nav id="main-menu" class="navigation columns small-12 large-12" role="navigation">
+        <div class="large-12 columns">
+          <nav id="main-menu" class="navigation columns large-12" role="navigation">
           <?php print ($alt_main_menu); ?>
         </nav> <!-- /#main-menu -->
+        </div>
       <?php endif; ?>
 
       <?php if ($alt_secondary_menu): ?>

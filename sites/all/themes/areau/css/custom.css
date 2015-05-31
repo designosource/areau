@@ -7952,6 +7952,15 @@ video {
   width: 25px;
 }
 
+/* line 33, ../scss/layout/_video.scss */
+.fixed {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  z-index: 1;
+  background-color: white;
+}
+
 /* line 88, ../scss/custom.scss */
 div,
 dl,
