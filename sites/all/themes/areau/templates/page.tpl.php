@@ -1,6 +1,22 @@
 <!--.page -->
 <div role="document" class="page">
 
+  <?php if (!empty($page['video'])): ?>
+    <!--/.video -->
+    <section class="l-featured row">
+      <div class="fullW large-12 columns">
+        <div class="Videowrapper">
+          <video autoplay="" loop="">
+            <source src="sites/all/themes/areau/videos/intro.mp4" type="video/mp4"></source>
+            <source src="sites/all/themes/areau/videos/intro.ogv" type="video/ogg"></source>
+            <source src="sites/all/themes/areau/videos/intro.webm" type="video/webm"></source>
+         </video>
+        </div>
+      </div>
+    </section>
+    <!--/.l-video -->
+  <?php endif; ?>
+
   <!--.l-header region -->
   <header role="banner" class="l-header">
 
@@ -81,22 +97,6 @@
 
   </header>
   <!--/.l-header -->
-
-  <?php if (!empty($page['video'])): ?>
-    <!--/.video -->
-    <section class="l-featured row">
-      <div class="fullW large-12 columns">
-        <div class="Videowrapper">
-          <video autoplay="" loop="">
-            <source src="sites/all/themes/areau/videos/intro.mp4" type="video/mp4"></source>
-            <source src="sites/all/themes/areau/videos/intro.ogv" type="video/ogg"></source>
-            <source src="sites/all/themes/areau/videos/intro.webm" type="video/webm"></source>
-         </video>
-        </div>
-      </div>
-    </section>
-    <!--/.l-video -->
-  <?php endif; ?>
 
   <?php if (!empty($page['featured'])): ?>
     <!--/.featured -->
