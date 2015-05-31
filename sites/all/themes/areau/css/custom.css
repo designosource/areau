@@ -7693,12 +7693,16 @@ a.th {
 }
 /* line 138, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .block-block p:nth-child(3) {
-  padding-top: 120px;
+  padding-top: 40px;
   padding-bottom: 15px;
+}
+/* line 143, ../scss/layout/_footer.scss */
+.l-footer-columns .footer-second .block-block p:nth-child(4) {
+  padding-bottom: 50px;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 153, ../scss/layout/_footer.scss */
+  /* line 156, ../scss/layout/_footer.scss */
   .l-footer-columns .footer-second .node-webform .webform-client-form {
     margin: 0 100px;
   }
