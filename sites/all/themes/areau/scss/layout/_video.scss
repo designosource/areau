@@ -10,3 +10,22 @@ video{
 .fullW{
 	padding: 0%;
 }
+
+#music{
+	display: none;
+}
+
+#music_pauze,
+#music_play
+{
+  top: 3%;
+  right: 2%;
+  position: absolute;
+  z-index: 1000;
+}
+
+#music_pauze > img,
+#music_play > img
+{
+    width: 25px;
+}

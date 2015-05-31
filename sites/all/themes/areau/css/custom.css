@@ -7932,6 +7932,26 @@ video {
   padding: 0%;
 }
 
+/* line 14, ../scss/layout/_video.scss */
+#music {
+  display: none;
+}
+
+/* line 18, ../scss/layout/_video.scss */
+#music_pauze,
+#music_play {
+  top: 3%;
+  right: 2%;
+  position: absolute;
+  z-index: 1000;
+}
+
+/* line 27, ../scss/layout/_video.scss */
+#music_pauze > img,
+#music_play > img {
+  width: 25px;
+}
+
 /* line 88, ../scss/custom.scss */
 div,
 dl,

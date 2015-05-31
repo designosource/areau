@@ -5,6 +5,12 @@
     <!--/.video -->
     <section class="l-featured row">
       <div class="fullW large-12 columns">
+        <div id='audio'>
+          <audio id="music" controls autoplay>
+              <source src="sites/all/themes/areau/sound/06%20Soul%20And%20Onward.m4a" type="audio/mp4" />
+          </audio>
+        </div>  
+        <a id="music_play"><img id="handlers" src="sites/all/themes/areau/images/pauzebtn.png" /></a>
         <div class="Videowrapper">
           <video autoplay="" loop="">
             <source src="sites/all/themes/areau/videos/intro.mp4" type="video/mp4"></source>

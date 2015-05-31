@@ -1,3 +1,20 @@
+(function($, Drupal){
+    $('a#music_play').click(function(e) {
+      console.log("Er is geklikt");
+      if ($('#music')[0].paused == false) {
+          $('#music')[0].pause();
+          console.log('music paused');
+          $('#handlers').attr('src','sites/all/themes/areau/images/playbtn.png');
+      } else {
+          $('#music')[0].play();
+          console.log('music playing');
+          $('#handlers').attr('src','sites/all/themes/areau/images/pauzebtn.png');
+      }
+      e.preventDefault();
+    });
+})(jQuery, Drupal);
+
+
 (function ($, Drupal) {
 
     Drupal.behaviors.areau = {
@@ -102,5 +119,7 @@
             });
         }
     };
+
+console.log("Hallo");
 
 })(jQuery, Drupal);
