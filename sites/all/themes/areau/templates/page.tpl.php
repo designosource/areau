@@ -82,6 +82,16 @@
   </header>
   <!--/.l-header -->
 
+  <?php if (!empty($page['video'])): ?>
+    <!--/.video -->
+    <section class="l-featured row">
+      <div class="large-12 columns">
+        <?php print render($page['video']); ?>
+      </div>
+    </section>
+    <!--/.l-video -->
+  <?php endif; ?>
+
   <?php if (!empty($page['featured'])): ?>
     <!--/.featured -->
     <section class="l-featured row">
