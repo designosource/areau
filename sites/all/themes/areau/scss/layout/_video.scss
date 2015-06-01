@@ -9,10 +9,20 @@ video{
 
 .fullW{
 	padding: 0%;
+	max-width: 100%;
+}
+
+.Nop{
+	padding: 0;
 }
 
 #music{
 	display: none;
+}
+
+.login{
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 #music_pauze,

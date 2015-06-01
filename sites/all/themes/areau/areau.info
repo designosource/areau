@@ -81,6 +81,7 @@ scripts[] = js/foundation.min.js
 
 regions[header]              = Header
 regions[video]				 = Video
+regions[inhoud]				 = Inhoud
 regions[help]                = Help
 regions[highlighted]         = Highlighted
 regions[featured]            = Featured

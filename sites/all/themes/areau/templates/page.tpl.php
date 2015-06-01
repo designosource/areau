@@ -3,8 +3,8 @@
 
   <?php if (!empty($page['video'])): ?>
     <!--/.video -->
-    <section class="l-featured row">
-      <div class="fullW large-12 columns">
+    <section class="fullW l-video row">
+      <div class="Nop large-12 columns">
         <div id='audio'>
           <audio id="music" controls autoplay>
               <source src="sites/all/themes/areau/sound/06%20Soul%20And%20Onward.m4a" type="audio/mp4" />
@@ -106,9 +106,20 @@
   </header>
   <!--/.l-header -->
 
+
+  <?php if (!empty($page['inhoud'])): ?>
+    <!--/.inhoud -->
+    <section class="fullW l-inhoud row">
+      <div class="Nop large-12 columns">
+        <?php print render($page['inhoud']); ?>
+      </div>
+    </section>
+    <!--/.l-inhoud -->
+  <?php endif; ?>
+
   <?php if (!empty($page['featured'])): ?>
     <!--/.featured -->
-    <section class="l-featured row">
+    <section class="l-featured">
       <div class="large-12 columns">
         <?php print render($page['featured']); ?>
       </div>
@@ -137,7 +148,7 @@
   <?php endif; ?>
 
   <div class="fullW"></div>
-  <main role="main" class="row l-main">
+  <main role="main" class="login l-main">
     <div>
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlight panel callout">
@@ -200,7 +211,7 @@
 
   <?php if (!empty($page['footer_firstcolumn']) || !empty($page['footer_secondcolumn']) || !empty($page['footer_thirdcolumn']) || !empty($page['footer_fourthcolumn'])): ?>
     <!--.footer-columns -->
-    <section class= "row l-footer-columns">
+    <section class= "fullW row l-footer-columns">
       <?php  ?>
         <div class="footer-first large-3 columns">
             <p class="no-opacity">test</p>
