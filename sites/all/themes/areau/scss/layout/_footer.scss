@@ -143,18 +143,18 @@
         p:nth-child(4){
           padding-bottom: 30px;
           img.smc{
-            opacity: 0.4;
-            background-color: white;
+            background: rgba(255, 255, 255, 0.7);
             border-radius: 50%;
+            opacity: 0.5;
           }
         }
 
         p:nth-child(5){
           padding-bottom: 40px;
           img.smc{
-            opacity: 0.4;
-            background-color: white;
+            background: rgba(255, 255, 255, 0.7);
             border-radius: 50%;
+            opacity: 0.5;
           }
         }
     }  
