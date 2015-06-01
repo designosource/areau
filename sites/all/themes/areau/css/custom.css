@@ -7913,25 +7913,34 @@ a.th {
     background-position: center 95%;
     background-size: 160px;
   }
-  /* line 169, ../scss/layout/_views.scss */
+  /* line 170, ../scss/layout/_views.scss */
+  .front .views-row .views-field-field-foto-tekst .field-content, .front .views-row .views-field-field-teaser-woonentiteit-tekst .field-content, .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst .field-content, .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst .field-content {
+    height: 100%;
+  }
+  /* line 174, ../scss/layout/_views.scss */
+  .front .views-row .views-field-field-foto-tekst a, .front .views-row .views-field-field-teaser-woonentiteit-tekst a, .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst a, .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst a {
+    color: black;
+  }
+  /* line 178, ../scss/layout/_views.scss */
   .front .views-row .views-field-field-foto-tekst p, .front .views-row .views-field-field-teaser-woonentiteit-tekst p, .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p, .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p {
     padding: 10% 30px;
     font-size: 1rem;
   }
-  /* line 172, ../scss/layout/_views.scss */
+  /* line 181, ../scss/layout/_views.scss */
   .front .views-row .views-field-field-foto-tekst p em, .front .views-row .views-field-field-teaser-woonentiteit-tekst p em, .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p em, .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p em {
     font-size: 0.9rem;
   }
-  /* line 177, ../scss/layout/_views.scss */
+  /* line 186, ../scss/layout/_views.scss */
   .front .views-row .views-field-field-foto-tekst p:nth-child(2),
   .front .views-row .views-field-field-foto-tekst p:nth-child(3), .front .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(2),
   .front .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(3), .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p:nth-child(2),
   .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p:nth-child(3), .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(2),
   .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(3) {
     display: block;
+    height: 69%;
     font-size: 0rem;
   }
-  /* line 181, ../scss/layout/_views.scss */
+  /* line 191, ../scss/layout/_views.scss */
   .front .views-row .views-field-field-foto-tekst p:nth-child(2) span,
   .front .views-row .views-field-field-foto-tekst p:nth-child(3) span, .front .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(2) span,
   .front .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(3) span, .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p:nth-child(2) span,
@@ -7939,7 +7948,7 @@ a.th {
   .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(3) span {
     font-size: 0.6rem;
   }
-  /* line 184, ../scss/layout/_views.scss */
+  /* line 194, ../scss/layout/_views.scss */
   .front .views-row .views-field-field-foto-tekst p:nth-child(2) em,
   .front .views-row .views-field-field-foto-tekst p:nth-child(3) em, .front .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(2) em,
   .front .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(3) em, .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p:nth-child(2) em,

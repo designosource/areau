@@ -166,6 +166,15 @@
                 background-repeat: no-repeat;
                 background-position: center 95%;
                 background-size: 160px;
+                
+                .field-content{
+                  height: 100%;
+                }
+
+                a{
+                  color: black;
+                }
+
                 p {
                   padding: 10% 30px;    
                   font-size: 1rem;
@@ -177,6 +186,7 @@
                 p:nth-child(2),
                 p:nth-child(3) {
                   display: block;
+                  height: 69%;
                   font-size: 0rem;
                   span {
                     font-size: 0.6rem;
