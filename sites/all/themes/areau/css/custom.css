@@ -7700,21 +7700,25 @@ a.th {
 .l-footer-columns .footer-second .block-block p:nth-child(4) {
   padding-bottom: 30px;
 }
-/* line 147, ../scss/layout/_footer.scss */
+/* line 145, ../scss/layout/_footer.scss */
+.l-footer-columns .footer-second .block-block p:nth-child(4) img.smc {
+  opacity: 0.4;
+  background-color: white;
+  border-radius: 50%;
+}
+/* line 152, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .block-block p:nth-child(5) {
   padding-bottom: 40px;
 }
-/* line 149, ../scss/layout/_footer.scss */
-.l-footer-columns .footer-second .block-block p:nth-child(5) img {
+/* line 154, ../scss/layout/_footer.scss */
+.l-footer-columns .footer-second .block-block p:nth-child(5) img.smc {
   opacity: 0.4;
   background-color: white;
-  width: 35px;
-  height: 35px;
   border-radius: 50%;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 167, ../scss/layout/_footer.scss */
+  /* line 170, ../scss/layout/_footer.scss */
   .l-footer-columns .footer-second .node-webform .webform-client-form {
     margin: 0 100px;
   }
@@ -8008,7 +8012,7 @@ td {
   width: 15px;
   margin: 0 2px;
   position: relative;
-  top: 1px;
+  top: -2px;
 }
 
 /* line 120, ../scss/custom.scss */
