@@ -7772,7 +7772,7 @@ a.th {
   display: none;
 }
 /* line 43, ../scss/layout/_views.scss */
-.front .views-row:hover .views-field-field-foto-tekst, .front .views-row .views-field-field-teaser-woonentiteit-tekst, .section-woonentiteiten-teaser .views-row:hover .views-field-field-foto-tekst, .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst {
+.front .views-row:hover .views-field-field-foto-tekst, .front .views-row:hover .views-field-field-teaser-woonentiteit-tekst, .section-woonentiteiten-teaser .views-row:hover .views-field-field-foto-tekst, .section-woonentiteiten-teaser .views-row:hover .views-field-field-teaser-woonentiteit-tekst {
   opacity: 1;
 }
 

@@ -40,7 +40,7 @@
       }      
 
     }
-    &:hover .views-field-field-foto-tekst, .views-field-field-teaser-woonentiteit-tekst {
+    &:hover .views-field-field-foto-tekst, &:hover .views-field-field-teaser-woonentiteit-tekst {
       opacity: 1;
     }
   }
