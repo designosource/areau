@@ -70,6 +70,7 @@
         } 
         .webform-component--brochure---werkwijze,
         .webform-component--prijs---project---info {
+
           height: 35px;
           padding: 10px 0px;
           border: 1px solid #B9AEA1;
@@ -170,6 +171,10 @@
       .webform-client-form
       {
         margin: 0 100px; 
+        .webform-component--brochure---werkwijze,
+        .webform-component--prijs---project---info {
+          font-size: 12px;
+        }
       }
     }
    }
