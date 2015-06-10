@@ -7,3 +7,10 @@
 .block-title {}
 
 .item-list {}
+
+img,
+object,
+embed {
+  width: 100%;
+  height: auto;
+}

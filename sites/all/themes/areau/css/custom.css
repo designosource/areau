@@ -7535,28 +7535,29 @@ a.th {
 /* line 6, ../scss/layout/_footer.scss */
 .l-footer-columns {
   background-image: url(../images/contact.jpg);
+  background-size: 100%;
 }
-/* line 10, ../scss/layout/_footer.scss */
+/* line 11, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform {
   margin-top: 30px;
   margin-bottom: 60px;
 }
-/* line 14, ../scss/layout/_footer.scss */
+/* line 15, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .node-title {
   font-size: 1.2rem;
   text-transform: uppercase;
   font-family: 'DinRegular';
 }
-/* line 18, ../scss/layout/_footer.scss */
+/* line 19, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .node-title a {
   color: #050506;
   letter-spacing: 1.5px;
 }
-/* line 24, ../scss/layout/_footer.scss */
+/* line 25, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .webform-client-form {
   margin: 0 60px;
 }
-/* line 28, ../scss/layout/_footer.scss */
+/* line 29, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .webform-client-form input[type="text"],
 .l-footer-columns .footer-second .node-webform .webform-client-form input[type="password"],
 .l-footer-columns .footer-second .node-webform .webform-client-form input[type="date"],
@@ -7577,7 +7578,7 @@ a.th {
   box-shadow: none;
   color: #050506;
 }
-/* line 47, ../scss/layout/_footer.scss */
+/* line 48, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .webform-client-form input[type="text"]:focus,
 .l-footer-columns .footer-second .node-webform .webform-client-form input[type="password"]:focus,
 .l-footer-columns .footer-second .node-webform .webform-client-form input[type="date"]:focus,
@@ -7594,31 +7595,31 @@ a.th {
 .l-footer-columns .footer-second .node-webform .webform-client-form textarea:focus {
   border: 1px solid #B9AEA1;
 }
-/* line 51, ../scss/layout/_footer.scss */
+/* line 52, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .webform-client-form ::-webkit-input-placeholder {
   color: #7F756B;
 }
-/* line 55, ../scss/layout/_footer.scss */
+/* line 56, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .webform-client-form :-moz-placeholder {
   /* Firefox 18- */
   color: #7F756B;
 }
-/* line 59, ../scss/layout/_footer.scss */
+/* line 60, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .webform-client-form ::-moz-placeholder {
   /* Firefox 19+ */
   color: #7F756B;
 }
-/* line 63, ../scss/layout/_footer.scss */
+/* line 64, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .webform-client-form :-ms-input-placeholder {
   color: #7F756B;
 }
-/* line 66, ../scss/layout/_footer.scss */
+/* line 67, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .webform-client-form input[placeholder] {
   color: #7F756B;
   font-family: 'DinLight', sans-serif;
   letter-spacing: 1.2px;
 }
-/* line 71, ../scss/layout/_footer.scss */
+/* line 72, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .webform-client-form .webform-component--brochure---werkwijze,
 .l-footer-columns .footer-second .node-webform .webform-client-form .webform-component--prijs---project---info {
   height: 35px;
@@ -7631,24 +7632,24 @@ a.th {
   color: #050506;
   letter-spacing: 1.2px;
 }
-/* line 82, ../scss/layout/_footer.scss */
+/* line 83, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .webform-client-form .webform-component--brochure---werkwijze:hover,
 .l-footer-columns .footer-second .node-webform .webform-client-form .webform-component--prijs---project---info:hover {
   background-color: rgba(255, 255, 255, 0.6);
 }
-/* line 85, ../scss/layout/_footer.scss */
+/* line 86, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .webform-client-form .webform-component--brochure---werkwijze .form-checkboxes,
 .l-footer-columns .footer-second .node-webform .webform-client-form .webform-component--prijs---project---info .form-checkboxes {
   visibility: hidden;
   position: relative;
   top: -20px;
 }
-/* line 90, ../scss/layout/_footer.scss */
+/* line 91, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .webform-client-form .webform-component--brochure---werkwijze label.option,
 .l-footer-columns .footer-second .node-webform .webform-client-form .webform-component--prijs---project---info label.option {
   display: none;
 }
-/* line 94, ../scss/layout/_footer.scss */
+/* line 95, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .webform-client-form textarea {
   height: 10em;
   font-family: 'Times New Roman', serif;
@@ -7656,7 +7657,7 @@ a.th {
   letter-spacing: 1.2px;
   text-align: center;
 }
-/* line 101, ../scss/layout/_footer.scss */
+/* line 102, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .webform-client-form button.form-submit,
 .l-footer-columns .footer-second .node-webform .webform-client-form button.webform-submit,
 .l-footer-columns .footer-second .node-webform .webform-client-form button.secondary,
@@ -7672,7 +7673,7 @@ a.th {
   font-size: 0.8rem;
   color: #050506;
 }
-/* line 115, ../scss/layout/_footer.scss */
+/* line 116, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .node-webform .webform-client-form button.form-submit:hover,
 .l-footer-columns .footer-second .node-webform .webform-client-form button.webform-submit:hover,
 .l-footer-columns .footer-second .node-webform .webform-client-form button.secondary:hover,
@@ -7680,36 +7681,36 @@ a.th {
   background-color: rgba(255, 255, 255, 0.7);
   border: 1px solid #7F756B;
 }
-/* line 127, ../scss/layout/_footer.scss */
+/* line 128, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .block-block p:nth-child(2) span > span > span:first-child > a {
   margin-top: 20px;
   display: inline-block;
 }
-/* line 131, ../scss/layout/_footer.scss */
+/* line 132, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .block-block p:nth-child(2) span > span > span:first-child > a #at_areau {
   position: relative;
   top: -0.8px;
 }
-/* line 138, ../scss/layout/_footer.scss */
+/* line 139, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .block-block p:nth-child(3) {
   padding-top: 10px;
   padding-bottom: 20px;
 }
-/* line 143, ../scss/layout/_footer.scss */
+/* line 144, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .block-block p:nth-child(4) {
   padding-bottom: 30px;
 }
-/* line 145, ../scss/layout/_footer.scss */
+/* line 146, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .block-block p:nth-child(4) img.smc {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 50%;
   opacity: 0.5;
 }
-/* line 152, ../scss/layout/_footer.scss */
+/* line 153, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .block-block p:nth-child(5) {
   padding-bottom: 40px;
 }
-/* line 154, ../scss/layout/_footer.scss */
+/* line 155, ../scss/layout/_footer.scss */
 .l-footer-columns .footer-second .block-block p:nth-child(5) img.smc {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 50%;
@@ -7717,7 +7718,7 @@ a.th {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 170, ../scss/layout/_footer.scss */
+  /* line 171, ../scss/layout/_footer.scss */
   .l-footer-columns .footer-second .node-webform .webform-client-form {
     margin: 0 100px;
   }
@@ -8011,6 +8012,14 @@ video {
   height: 70px;
   z-index: 1;
   background-color: white;
+}
+
+/* line 11, ../scss/components/_type.scss */
+img,
+object,
+embed {
+  width: 100%;
+  height: auto;
 }
 
 /* line 88, ../scss/custom.scss */
