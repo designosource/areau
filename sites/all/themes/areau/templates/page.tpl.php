@@ -79,6 +79,7 @@
         <div class="wrap">
           <nav id="main-menu" class="navigation columns large-12" role="navigation">
           <?php print ($alt_main_menu); ?>
+          <div class="spacer"></div>
         </nav> <!-- /#main-menu -->
         </div>
       <?php endif; ?>
@@ -111,6 +112,7 @@
     <!--/.inhoud -->
     <section class="fullW l-inhoud row">
       <div class="Nop large-12 columns">
+
         <?php print render($page['inhoud']); ?>
       </div>
     </section>

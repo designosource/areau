@@ -1,17 +1,23 @@
 (function($, Drupal){
-$(window).scroll(function () {
-   var height = $('.top').height();
-   
-    if($(this).scrollTop() > height){
-        $('.top').hide();    
-        $('header').addClass('sticky');    
-    }else{
-        $('.top').show();
-        $('header').removeClass('sticky');   
-    }   
+$(document).ready(function() {
+var stickyNavTop = $('header').offset().top,
+    height = $('.top').height();
+var stickyNav = function(){
+var scrollTop = $(window).scrollTop();
+if (scrollTop > stickyNavTop && scrollTop > height) { 
+    $('header').addClass('sticky');
+} else {
+    $('header').removeClass('sticky'); 
+}
+};
+ 
+stickyNav();
+ 
+$(window).scroll(function() {
+    stickyNav();
+});
 });
 })(jQuery, Drupal);
-
 
 (function($, Drupal){
     $('a#music_play').click(function(e) {
