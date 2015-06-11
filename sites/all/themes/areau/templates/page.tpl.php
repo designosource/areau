@@ -3,8 +3,8 @@
 
   <?php if (!empty($page['video'])): ?>
     <!--/.video -->
-    <section class="fullW l-video row">
-      <div class="Nop large-12 columns">
+    <section class="l-video">
+      <div class="top Nop large-12 columns">
         <div id='audio'>
           <audio id="music" controls autoplay>
               <source src="sites/all/themes/areau/sound/06%20Soul%20And%20Onward.m4a" type="audio/mp4" />
@@ -12,7 +12,7 @@
         </div>  
         <a id="music_play"><img id="handlers" src="sites/all/themes/areau/images/pauzebtn.png" /></a>
         <div class="Videowrapper">
-          <video autoplay="" loop="">
+          <video autoplay="" loop="" class="video">
             <source src="sites/all/themes/areau/videos/intro.mp4" type="video/mp4"></source>
             <source src="sites/all/themes/areau/videos/intro.ogv" type="video/ogg"></source>
             <source src="sites/all/themes/areau/videos/intro.webm" type="video/webm"></source>
@@ -24,7 +24,7 @@
   <?php endif; ?>
 
   <!--.l-header region -->
-  <header role="banner" class="l-header">
+  <header role="banner" class="site-header l-header">
 
     <?php if ($top_bar): ?>
       <!--.top-bar -->

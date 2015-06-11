@@ -7975,32 +7975,31 @@ a.th {
 /* line 5, ../scss/layout/_video.scss */
 video {
   width: 100%;
-  padding-bottom: 4%;
 }
 
-/* line 10, ../scss/layout/_video.scss */
+/* line 9, ../scss/layout/_video.scss */
 .fullW {
   padding: 0%;
   max-width: 100%;
 }
 
-/* line 15, ../scss/layout/_video.scss */
+/* line 14, ../scss/layout/_video.scss */
 .Nop {
   padding: 0;
 }
 
-/* line 19, ../scss/layout/_video.scss */
+/* line 18, ../scss/layout/_video.scss */
 #music {
   display: none;
 }
 
-/* line 23, ../scss/layout/_video.scss */
+/* line 22, ../scss/layout/_video.scss */
 .login {
   max-width: 960px;
   margin: 0 auto;
 }
 
-/* line 28, ../scss/layout/_video.scss */
+/* line 27, ../scss/layout/_video.scss */
 #music_pauze,
 #music_play {
   top: 3%;
@@ -8009,16 +8008,23 @@ video {
   z-index: 1000;
 }
 
-/* line 37, ../scss/layout/_video.scss */
+/* line 36, ../scss/layout/_video.scss */
 #music_pauze > img,
 #music_play > img {
   width: 25px;
 }
 
-/* line 43, ../scss/layout/_video.scss */
+/* line 42, ../scss/layout/_video.scss */
+.sticky {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+}
+
+/* line 49, ../scss/layout/_video.scss */
 .fixed {
   position: fixed;
-  top: 0;
   height: 70px;
   z-index: 1;
   background-color: white;

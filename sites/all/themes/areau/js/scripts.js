@@ -1,15 +1,15 @@
 (function($, Drupal){
-    $(document).ready(function(){
-       $(window).bind('scroll', function() {
-       var navHeight = $( window ).height() - 70;
-             if ($(window).scrollTop() > navHeight) {
-                 $('header').addClass('fixed');
-             }
-             else {
-                 $('header').removeClass('fixed');
-             }
-        });
-    });
+$(window).scroll(function () {
+   var height = $('.top').height();
+   
+    if($(this).scrollTop() > height){
+        $('.top').hide();    
+        $('header').addClass('sticky');    
+    }else{
+        $('.top').show();
+        $('header').removeClass('sticky');   
+    }   
+});
 })(jQuery, Drupal);
 
 
