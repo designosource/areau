@@ -1,10 +1,10 @@
-.front, .section-woonentiteiten-teaser {
+.front, .section-teaser-woonentiteiten, .section-teaser-spotlight {
   .views-row {
     position: relative; 
     opacity: 0.9;
 	transition: all 2s ease;  
     margin-bottom: $column-gutter/2;
-    .views-field-field-foto-tekst, .views-field-field-teaser-woonentiteit-tekst {
+    .views-field-field-foto-tekst, .views-field-field-teaser-tekst, .views-field-field-teaser-woonentiteit-tekst {
       -webkit-opacity: 0.25;
       -moz-opacity: 0.25;
       opacity: 0.15;
@@ -40,7 +40,7 @@
       }      
 
     }
-    &:hover .views-field-field-foto-tekst, &:hover .views-field-field-teaser-woonentiteit-tekst {
+    &:hover .views-field-field-teaser-tekst, &:hover .views-field-field-foto-tekst, &:hover .views-field-field-teaser-woonentiteit-tekst {
       opacity: 1;
     }
   }
@@ -155,9 +155,9 @@
 
     }
     
-    .front, .section-woonentiteiten-teaser {
+    .front, .section-teaser-woonentiteiten, .section-teaser-spotlight {
         .views-row {
-            .views-field-field-foto-tekst, .views-field-field-teaser-woonentiteit-tekst {
+            .views-field-field-foto-tekst, .views-field-field-teaser-tekst {
                 width: 35%;
                 left: 32.5%;
                 height: 70%;

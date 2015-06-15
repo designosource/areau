@@ -7735,14 +7735,14 @@ a.th {
   }
 }
 /* line 2, ../scss/layout/_views.scss */
-.front .views-row, .section-woonentiteiten-teaser .views-row {
+.front .views-row, .section-teaser-woonentiteiten .views-row, .section-teaser-spotlight .views-row {
   position: relative;
   opacity: 0.9;
   transition: all 2s ease;
   margin-bottom: 0.9375em;
 }
 /* line 7, ../scss/layout/_views.scss */
-.front .views-row .views-field-field-foto-tekst, .front .views-row .views-field-field-teaser-woonentiteit-tekst, .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst, .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst {
+.front .views-row .views-field-field-foto-tekst, .front .views-row .views-field-field-teaser-tekst, .front .views-row .views-field-field-teaser-woonentiteit-tekst, .section-teaser-woonentiteiten .views-row .views-field-field-foto-tekst, .section-teaser-woonentiteiten .views-row .views-field-field-teaser-tekst, .section-teaser-woonentiteiten .views-row .views-field-field-teaser-woonentiteit-tekst, .section-teaser-spotlight .views-row .views-field-field-foto-tekst, .section-teaser-spotlight .views-row .views-field-field-teaser-tekst, .section-teaser-spotlight .views-row .views-field-field-teaser-woonentiteit-tekst {
   -webkit-opacity: 0.25;
   -moz-opacity: 0.25;
   opacity: 0.15;
@@ -7761,7 +7761,7 @@ a.th {
   letter-spacing: 1.5px;
 }
 /* line 25, ../scss/layout/_views.scss */
-.front .views-row .views-field-field-foto-tekst p, .front .views-row .views-field-field-teaser-woonentiteit-tekst p, .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p, .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p {
+.front .views-row .views-field-field-foto-tekst p, .front .views-row .views-field-field-teaser-tekst p, .front .views-row .views-field-field-teaser-woonentiteit-tekst p, .section-teaser-woonentiteiten .views-row .views-field-field-foto-tekst p, .section-teaser-woonentiteiten .views-row .views-field-field-teaser-tekst p, .section-teaser-woonentiteiten .views-row .views-field-field-teaser-woonentiteit-tekst p, .section-teaser-spotlight .views-row .views-field-field-foto-tekst p, .section-teaser-spotlight .views-row .views-field-field-teaser-tekst p, .section-teaser-spotlight .views-row .views-field-field-teaser-woonentiteit-tekst p {
   padding: 10% 10%;
   margin-bottom: 0;
   text-align: left;
@@ -7770,20 +7770,25 @@ a.th {
   font-size: 0.8rem;
 }
 /* line 32, ../scss/layout/_views.scss */
-.front .views-row .views-field-field-foto-tekst p em, .front .views-row .views-field-field-teaser-woonentiteit-tekst p em, .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p em, .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p em {
+.front .views-row .views-field-field-foto-tekst p em, .front .views-row .views-field-field-teaser-tekst p em, .front .views-row .views-field-field-teaser-woonentiteit-tekst p em, .section-teaser-woonentiteiten .views-row .views-field-field-foto-tekst p em, .section-teaser-woonentiteiten .views-row .views-field-field-teaser-tekst p em, .section-teaser-woonentiteiten .views-row .views-field-field-teaser-woonentiteit-tekst p em, .section-teaser-spotlight .views-row .views-field-field-foto-tekst p em, .section-teaser-spotlight .views-row .views-field-field-teaser-tekst p em, .section-teaser-spotlight .views-row .views-field-field-teaser-woonentiteit-tekst p em {
   font-size: 0.7rem;
   letter-spacing: 0px;
 }
 /* line 37, ../scss/layout/_views.scss */
 .front .views-row .views-field-field-foto-tekst p:nth-child(2),
-.front .views-row .views-field-field-foto-tekst p:nth-child(3), .front .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(2),
-.front .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(3), .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p:nth-child(2),
-.section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p:nth-child(3), .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(2),
-.section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(3) {
+.front .views-row .views-field-field-foto-tekst p:nth-child(3), .front .views-row .views-field-field-teaser-tekst p:nth-child(2),
+.front .views-row .views-field-field-teaser-tekst p:nth-child(3), .front .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(2),
+.front .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(3), .section-teaser-woonentiteiten .views-row .views-field-field-foto-tekst p:nth-child(2),
+.section-teaser-woonentiteiten .views-row .views-field-field-foto-tekst p:nth-child(3), .section-teaser-woonentiteiten .views-row .views-field-field-teaser-tekst p:nth-child(2),
+.section-teaser-woonentiteiten .views-row .views-field-field-teaser-tekst p:nth-child(3), .section-teaser-woonentiteiten .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(2),
+.section-teaser-woonentiteiten .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(3), .section-teaser-spotlight .views-row .views-field-field-foto-tekst p:nth-child(2),
+.section-teaser-spotlight .views-row .views-field-field-foto-tekst p:nth-child(3), .section-teaser-spotlight .views-row .views-field-field-teaser-tekst p:nth-child(2),
+.section-teaser-spotlight .views-row .views-field-field-teaser-tekst p:nth-child(3), .section-teaser-spotlight .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(2),
+.section-teaser-spotlight .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(3) {
   display: none;
 }
 /* line 43, ../scss/layout/_views.scss */
-.front .views-row:hover .views-field-field-foto-tekst, .front .views-row:hover .views-field-field-teaser-woonentiteit-tekst, .section-woonentiteiten-teaser .views-row:hover .views-field-field-foto-tekst, .section-woonentiteiten-teaser .views-row:hover .views-field-field-teaser-woonentiteit-tekst {
+.front .views-row:hover .views-field-field-teaser-tekst, .front .views-row:hover .views-field-field-foto-tekst, .front .views-row:hover .views-field-field-teaser-woonentiteit-tekst, .section-teaser-woonentiteiten .views-row:hover .views-field-field-teaser-tekst, .section-teaser-woonentiteiten .views-row:hover .views-field-field-foto-tekst, .section-teaser-woonentiteiten .views-row:hover .views-field-field-teaser-woonentiteit-tekst, .section-teaser-spotlight .views-row:hover .views-field-field-teaser-tekst, .section-teaser-spotlight .views-row:hover .views-field-field-foto-tekst, .section-teaser-spotlight .views-row:hover .views-field-field-teaser-woonentiteit-tekst {
   opacity: 1;
 }
 
@@ -7914,7 +7919,7 @@ a.th {
 
 @media only screen and (min-width: 768px) {
   /* line 160, ../scss/layout/_views.scss */
-  .front .views-row .views-field-field-foto-tekst, .front .views-row .views-field-field-teaser-woonentiteit-tekst, .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst, .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst {
+  .front .views-row .views-field-field-foto-tekst, .front .views-row .views-field-field-teaser-tekst, .section-teaser-woonentiteiten .views-row .views-field-field-foto-tekst, .section-teaser-woonentiteiten .views-row .views-field-field-teaser-tekst, .section-teaser-spotlight .views-row .views-field-field-foto-tekst, .section-teaser-spotlight .views-row .views-field-field-teaser-tekst {
     width: 35%;
     left: 32.5%;
     height: 70%;
@@ -7925,46 +7930,52 @@ a.th {
     background-size: 160px;
   }
   /* line 170, ../scss/layout/_views.scss */
-  .front .views-row .views-field-field-foto-tekst .field-content, .front .views-row .views-field-field-teaser-woonentiteit-tekst .field-content, .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst .field-content, .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst .field-content {
+  .front .views-row .views-field-field-foto-tekst .field-content, .front .views-row .views-field-field-teaser-tekst .field-content, .section-teaser-woonentiteiten .views-row .views-field-field-foto-tekst .field-content, .section-teaser-woonentiteiten .views-row .views-field-field-teaser-tekst .field-content, .section-teaser-spotlight .views-row .views-field-field-foto-tekst .field-content, .section-teaser-spotlight .views-row .views-field-field-teaser-tekst .field-content {
     height: 100%;
   }
   /* line 174, ../scss/layout/_views.scss */
-  .front .views-row .views-field-field-foto-tekst a, .front .views-row .views-field-field-teaser-woonentiteit-tekst a, .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst a, .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst a {
+  .front .views-row .views-field-field-foto-tekst a, .front .views-row .views-field-field-teaser-tekst a, .section-teaser-woonentiteiten .views-row .views-field-field-foto-tekst a, .section-teaser-woonentiteiten .views-row .views-field-field-teaser-tekst a, .section-teaser-spotlight .views-row .views-field-field-foto-tekst a, .section-teaser-spotlight .views-row .views-field-field-teaser-tekst a {
     color: black;
   }
   /* line 178, ../scss/layout/_views.scss */
-  .front .views-row .views-field-field-foto-tekst p, .front .views-row .views-field-field-teaser-woonentiteit-tekst p, .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p, .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p {
+  .front .views-row .views-field-field-foto-tekst p, .front .views-row .views-field-field-teaser-tekst p, .section-teaser-woonentiteiten .views-row .views-field-field-foto-tekst p, .section-teaser-woonentiteiten .views-row .views-field-field-teaser-tekst p, .section-teaser-spotlight .views-row .views-field-field-foto-tekst p, .section-teaser-spotlight .views-row .views-field-field-teaser-tekst p {
     padding: 10% 30px;
     font-size: 1rem;
   }
   /* line 181, ../scss/layout/_views.scss */
-  .front .views-row .views-field-field-foto-tekst p em, .front .views-row .views-field-field-teaser-woonentiteit-tekst p em, .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p em, .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p em {
+  .front .views-row .views-field-field-foto-tekst p em, .front .views-row .views-field-field-teaser-tekst p em, .section-teaser-woonentiteiten .views-row .views-field-field-foto-tekst p em, .section-teaser-woonentiteiten .views-row .views-field-field-teaser-tekst p em, .section-teaser-spotlight .views-row .views-field-field-foto-tekst p em, .section-teaser-spotlight .views-row .views-field-field-teaser-tekst p em {
     font-size: 0.9rem;
   }
   /* line 186, ../scss/layout/_views.scss */
   .front .views-row .views-field-field-foto-tekst p:nth-child(2),
-  .front .views-row .views-field-field-foto-tekst p:nth-child(3), .front .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(2),
-  .front .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(3), .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p:nth-child(2),
-  .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p:nth-child(3), .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(2),
-  .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(3) {
+  .front .views-row .views-field-field-foto-tekst p:nth-child(3), .front .views-row .views-field-field-teaser-tekst p:nth-child(2),
+  .front .views-row .views-field-field-teaser-tekst p:nth-child(3), .section-teaser-woonentiteiten .views-row .views-field-field-foto-tekst p:nth-child(2),
+  .section-teaser-woonentiteiten .views-row .views-field-field-foto-tekst p:nth-child(3), .section-teaser-woonentiteiten .views-row .views-field-field-teaser-tekst p:nth-child(2),
+  .section-teaser-woonentiteiten .views-row .views-field-field-teaser-tekst p:nth-child(3), .section-teaser-spotlight .views-row .views-field-field-foto-tekst p:nth-child(2),
+  .section-teaser-spotlight .views-row .views-field-field-foto-tekst p:nth-child(3), .section-teaser-spotlight .views-row .views-field-field-teaser-tekst p:nth-child(2),
+  .section-teaser-spotlight .views-row .views-field-field-teaser-tekst p:nth-child(3) {
     display: block;
     height: 69%;
     font-size: 0rem;
   }
   /* line 191, ../scss/layout/_views.scss */
   .front .views-row .views-field-field-foto-tekst p:nth-child(2) span,
-  .front .views-row .views-field-field-foto-tekst p:nth-child(3) span, .front .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(2) span,
-  .front .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(3) span, .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p:nth-child(2) span,
-  .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p:nth-child(3) span, .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(2) span,
-  .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(3) span {
+  .front .views-row .views-field-field-foto-tekst p:nth-child(3) span, .front .views-row .views-field-field-teaser-tekst p:nth-child(2) span,
+  .front .views-row .views-field-field-teaser-tekst p:nth-child(3) span, .section-teaser-woonentiteiten .views-row .views-field-field-foto-tekst p:nth-child(2) span,
+  .section-teaser-woonentiteiten .views-row .views-field-field-foto-tekst p:nth-child(3) span, .section-teaser-woonentiteiten .views-row .views-field-field-teaser-tekst p:nth-child(2) span,
+  .section-teaser-woonentiteiten .views-row .views-field-field-teaser-tekst p:nth-child(3) span, .section-teaser-spotlight .views-row .views-field-field-foto-tekst p:nth-child(2) span,
+  .section-teaser-spotlight .views-row .views-field-field-foto-tekst p:nth-child(3) span, .section-teaser-spotlight .views-row .views-field-field-teaser-tekst p:nth-child(2) span,
+  .section-teaser-spotlight .views-row .views-field-field-teaser-tekst p:nth-child(3) span {
     font-size: 0.6rem;
   }
   /* line 194, ../scss/layout/_views.scss */
   .front .views-row .views-field-field-foto-tekst p:nth-child(2) em,
-  .front .views-row .views-field-field-foto-tekst p:nth-child(3) em, .front .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(2) em,
-  .front .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(3) em, .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p:nth-child(2) em,
-  .section-woonentiteiten-teaser .views-row .views-field-field-foto-tekst p:nth-child(3) em, .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(2) em,
-  .section-woonentiteiten-teaser .views-row .views-field-field-teaser-woonentiteit-tekst p:nth-child(3) em {
+  .front .views-row .views-field-field-foto-tekst p:nth-child(3) em, .front .views-row .views-field-field-teaser-tekst p:nth-child(2) em,
+  .front .views-row .views-field-field-teaser-tekst p:nth-child(3) em, .section-teaser-woonentiteiten .views-row .views-field-field-foto-tekst p:nth-child(2) em,
+  .section-teaser-woonentiteiten .views-row .views-field-field-foto-tekst p:nth-child(3) em, .section-teaser-woonentiteiten .views-row .views-field-field-teaser-tekst p:nth-child(2) em,
+  .section-teaser-woonentiteiten .views-row .views-field-field-teaser-tekst p:nth-child(3) em, .section-teaser-spotlight .views-row .views-field-field-foto-tekst p:nth-child(2) em,
+  .section-teaser-spotlight .views-row .views-field-field-foto-tekst p:nth-child(3) em, .section-teaser-spotlight .views-row .views-field-field-teaser-tekst p:nth-child(2) em,
+  .section-teaser-spotlight .views-row .views-field-field-teaser-tekst p:nth-child(3) em {
     letter-spacing: 1.5px;
   }
 }
