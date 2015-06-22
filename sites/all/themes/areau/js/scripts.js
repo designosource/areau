@@ -48,10 +48,10 @@ $(window).scroll(function() {
                 //1. MENU    
                 $('.menu-719').append("<img class='hamburger' src='sites/all/themes/areau/images/mobile.png' />");
                 
-                    var li1 = $('.menu-718');
+                    var li1 = $('.menu-965');
                     var li2 = $('.menu-510');
                     var li3 = $('.menu-511');
-                    var li5 = $('.menu-512');
+                    var li5 = $('.menu-968');
                     var li6 = $('.menu-513');
                     var li7 = $('.menu-933');
                 
